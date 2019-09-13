@@ -1,0 +1,28 @@
+package com.fiscalia.springboot.backend.apirest.controllers;
+
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.fiscalia.springboot.backend.apirest.models.entity.LeyProvincial;
+import com.fiscalia.springboot.backend.apirest.models.service.ILeyProvincialService;
+
+
+@CrossOrigin(origins= {"http://localhost:4200"}) //conexion con Angular
+@RestController 
+@RequestMapping("/api")
+public class LeyProvincialRestController {
+	
+	@Autowired //llamo al servicio
+	private ILeyProvincialService leyProvincialService;
+	
+	@GetMapping("/leyesProvinciales") //mapeo a la URL
+	public List<LeyProvincial> index() {
+		return leyProvincialService.findAll();
+	}
+
+}

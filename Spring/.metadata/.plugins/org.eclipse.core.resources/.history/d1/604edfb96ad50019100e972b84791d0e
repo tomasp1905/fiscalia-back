@@ -1,0 +1,80 @@
+package com.fiscalia.springboot.backend.apirest.models.entity;
+
+import java.io.Serializable;
+import java.util.Date;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+import javax.persistence.Temporal;
+import javax.persistence.TemporalType;
+
+@Entity
+@Table(name="leyes")
+public class LeyProvincial implements Serializable {
+
+	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	private long id;
+	
+	private long numero;
+	
+	private String titulo;
+	
+	@Column(name="fecha_sancion") //Se usa @Column cuando se quiere cambiar el nombre a la columna
+	@Temporal(TemporalType.DATE) //para las fechas
+	private Date fechaSancion;
+	
+	@Column(name="publicacion_BO")
+	@Temporal(TemporalType.DATE)
+	private Date publicacionBO;
+
+	public long getId() {
+		return id;
+	}
+
+	public void setId(long id) {
+		this.id = id;
+	}
+
+	public long getNumero() {
+		return numero;
+	}
+
+	public void setNumero(long number) {
+		this.numero = number;
+	}
+
+	public String getTitulo() {
+		return titulo;
+	}
+
+	public void setTitulo(String titulo) {
+		this.titulo = titulo;
+	}
+
+	public Date getFechaSancion() {
+		return fechaSancion;
+	}
+
+	public void setFechaSancion(String fechaSancion) {
+		this.fechaSancion = fechaSancion;
+	}
+
+	public Date getPublicacionBO() {
+		return publicacionBO;
+	}
+
+	public void setPublicacionBO(String publicacionBO) {
+		this.publicacionBO = publicacionBO;
+	}
+	
+	/**
+	 Atributo estático que necesita Serializable. No afecta en nada
+	 */
+	private static final long serialVersionUID = 1L;
+
+}
