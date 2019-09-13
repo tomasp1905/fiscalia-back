@@ -5188,3 +5188,15 @@ This warning can be switched off on the Team > Git > Confirmations and Warnings 
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2019-09-13 10:22:13.064
 !MESSAGE Could not determine target level, using default 1.5
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-13 11:07:50.796
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.kbtBLPua
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-13 11:07:50.799
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.kbtBLPua
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-13 11:07:50.804
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-13 11:07:50.808
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.kbtBLPua => OK
