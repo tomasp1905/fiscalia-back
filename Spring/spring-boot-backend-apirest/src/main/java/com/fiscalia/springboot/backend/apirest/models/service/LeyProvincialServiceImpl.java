@@ -18,8 +18,29 @@ public class LeyProvincialServiceImpl implements ILeyProvincialService {
 	
 	@Transactional(readOnly = true) //porque es una consulta de solo lectura, es opcional pero es recomendable ponerlo.
 	public List<LeyProvincial> findAll() {
-		
 		return (List<LeyProvincial>) leyProvincialDao.findAll();
+	}
+	
+	
+	@Transactional(readOnly = true)
+	public LeyProvincial findById(long id) {
+		// TODO Auto-generated method stub
+		return leyProvincialDao.findById(id).orElse(null);
+	}
+
+	
+	@Transactional
+	public LeyProvincial save(LeyProvincial leyprovincial) {
+		// TODO Auto-generated method stub
+		return leyProvincialDao.save(leyprovincial);
+	}
+
+	
+	@Transactional
+	public void delete(long id) {
+		// TODO Auto-generated method stub
+		leyProvincialDao.deleteById(id);;
+		
 	}
 	
 
