@@ -14,6 +14,7 @@ import java.util.UUID;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.UrlResource;
+import org.springframework.dao.DataAccessException;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -48,8 +49,23 @@ public class LeyProvincialRestController {
 	}
 	
 	@GetMapping("/leyesProvinciales/{id}")
-	public LeyProvincial show(@PathVariable Long id) {
-		return leyProvincialService.findById(id);
+	public ResponseEntity<?>  show(@PathVariable Long id) {
+		LeyProvincial leyprovincial = null;
+		Map<String, Object> response = new HashMap<>();
+		try {
+			leyprovincial = leyProvincialService.findById(id);
+		} catch(DataAccessException e ) {
+			response.put("mensaje", "Error al realizar la cosulta en la base de datos");
+			response.put("mensaje", e.getMessage().concat(": ").concat(e.getMostSpecificCause().getMessage()));
+			return new ResponseEntity<Map<String,Object>>(response, HttpStatus.NOT_FOUND);
+		}
+		
+		
+		if(leyprovincial == null) {
+			response.put("mensaje", "El cliente ID: ".concat(id.toString().concat(" no esxiste en la Base de Datos! ")));
+			return new ResponseEntity<Map<String,Object>>(response, HttpStatus.NOT_FOUND);
+		}
+		return new ResponseEntity<LeyProvincial>(leyprovincial,HttpStatus.OK);
 	}
 	
 	@PostMapping("/leyesProvinciales")
