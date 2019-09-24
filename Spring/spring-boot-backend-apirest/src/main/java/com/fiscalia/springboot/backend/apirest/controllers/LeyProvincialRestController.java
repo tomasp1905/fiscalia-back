@@ -102,7 +102,7 @@ public class LeyProvincialRestController {
 		LeyProvincial leyprovincial = leyProvincialService.findById(id);
 		
 		if(!archivo.isEmpty()) {
-			String nombreArchivo = UUID.randomUUID().toString() + "_" + archivo.getOriginalFilename().replace("", "");
+			String nombreArchivo = archivo.getOriginalFilename().replace("", "");
 			Path rutaArchivo = Paths.get("uploads").resolve(nombreArchivo).toAbsolutePath();
 			
 			try {
