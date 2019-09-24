@@ -76,12 +76,12 @@ public class LeyProvincialRestController {
 	
 	@PutMapping("/leyesProvinciales/{id}")
 	@ResponseStatus(HttpStatus.CREATED)
-	public LeyProvincial create(@RequestBody LeyProvincial leyprovincial, @PathVariable Long id) {
+	public LeyProvincial update(@RequestBody LeyProvincial leyprovincial, @PathVariable Long id) {
 		LeyProvincial leyprovincialActual = leyProvincialService.findById(id);
 		leyprovincialActual.setTitulo(leyprovincial.getTitulo());
-		leyprovincialActual.setFechaSancion(leyprovincialActual.getFechaSancion());
-		leyprovincialActual.setNumero(leyprovincialActual.getNumero());
-		leyprovincialActual.setPublicacionBO(leyprovincialActual.getPublicacionBO());
+		leyprovincialActual.setFechaSancion(leyprovincial.getFechaSancion());
+		leyprovincialActual.setNumero(leyprovincial.getNumero());
+		leyprovincialActual.setPublicacionBO(leyprovincial.getPublicacionBO());
 		
 		return leyProvincialService.save(leyprovincialActual); 
 	}
