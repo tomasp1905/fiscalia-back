@@ -20,18 +20,18 @@ public class LeyProvincial implements Serializable {
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private long id;
-	
-	private long numero;
-	
+	@Column(nullable=false)
+	private String numero;
+	@Column(nullable=false)
 	private String titulo;
-	
-	@Column(name="fecha_sancion") //Se usa @Column cuando se quiere cambiar el nombre a la columna
+	@Column(name="fecha_sancion",nullable=false) //Se usa @Column cuando se quiere cambiar el nombre a la columna
 	@Temporal(TemporalType.DATE) //para las fechas
 	private Date fechaSancion;
 	
-	@Column(name="publicacion_BO")
+	@Column(name="publicacion_BO",nullable=false)
 	@Temporal(TemporalType.DATE)
 	private Date publicacionBO;
+	
 	
 	private String foto;
 	
@@ -51,11 +51,11 @@ public class LeyProvincial implements Serializable {
 		this.id = id;
 	}
 
-	public long getNumero() {
+	public String getNumero() {
 		return numero;
 	}
 
-	public void setNumero(long number) {
+	public void setNumero(String number) {
 		this.numero = number;
 	}
 

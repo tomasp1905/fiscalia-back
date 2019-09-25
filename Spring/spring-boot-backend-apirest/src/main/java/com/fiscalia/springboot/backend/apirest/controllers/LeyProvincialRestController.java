@@ -62,7 +62,7 @@ public class LeyProvincialRestController {
 		
 		
 		if(leyprovincial == null) {
-			response.put("mensaje", "El cliente ID: ".concat(id.toString().concat(" no esxiste en la Base de Datos! ")));
+			response.put("mensaje", "La ley ID: ".concat(id.toString().concat(" no esxiste en la Base de Datos! ")));
 			return new ResponseEntity<Map<String,Object>>(response, HttpStatus.NOT_FOUND);
 		}
 		return new ResponseEntity<LeyProvincial>(leyprovincial,HttpStatus.OK);
@@ -70,21 +70,47 @@ public class LeyProvincialRestController {
 	
 	@PostMapping("/leyesProvinciales")
 	@ResponseStatus(HttpStatus.CREATED)
-	public LeyProvincial create(@RequestBody LeyProvincial leyprovincial) {
-		return leyProvincialService.save(leyprovincial);
+	public ResponseEntity<?> create(@RequestBody LeyProvincial leyprovincial) {
+		LeyProvincial leyprovincialnew = null;
+		Map<String, Object> response = new HashMap<>();
+		try {
+			leyprovincialnew = leyProvincialService.save(leyprovincial);
+		}catch(DataAccessException e) {
+			response.put("mensaje", "Error al realizar el insert en la base de datos");
+			response.put("mensaje", e.getMessage().concat(": ").concat(e.getMostSpecificCause().getMessage()));
+			return new ResponseEntity<Map<String,Object>>(response, HttpStatus.NOT_FOUND);
+		}
+		response.put("mensaje", "El cliente ha sido cread con exito!");
+		response.put("ley", leyprovincialnew);
+		return new ResponseEntity<Map<String,Object>>(response,HttpStatus.CREATED);
 	}
 	
 	@PutMapping("/leyesProvinciales/{id}")
 	@ResponseStatus(HttpStatus.CREATED)
-	public LeyProvincial update(@RequestBody LeyProvincial leyprovincial, @PathVariable Long id) {
+	public ResponseEntity<?> update(@RequestBody LeyProvincial leyprovincial, @PathVariable Long id) {
 		LeyProvincial leyprovincialActual = leyProvincialService.findById(id);
+		LeyProvincial leyprovincialUpdate = null;  
+		Map<String, Object> response = new HashMap<>();
+		if(leyprovincialActual == null) {
+			response.put("mensaje", "Error no se pudo editar la ley ID: ".concat(id.toString().concat(" no esxiste en la Base de Datos! ")));
+			return new ResponseEntity<Map<String,Object>>(response, HttpStatus.NOT_FOUND);
+		}
+		try {
 		leyprovincialActual.setTitulo(leyprovincial.getTitulo());
 		leyprovincialActual.setFechaSancion(leyprovincial.getFechaSancion());
 		leyprovincialActual.setNumero(leyprovincial.getNumero());
 		leyprovincialActual.setPublicacionBO(leyprovincial.getPublicacionBO());
-		
-		return leyProvincialService.save(leyprovincialActual); 
+			}catch(DataAccessException e) {
+			response.put("mensaje", "Error al actualizar la ley en la base de datos");
+			response.put("mensaje", e.getMessage().concat(": ").concat(e.getMostSpecificCause().getMessage()));
+			return new ResponseEntity<Map<String,Object>>(response, HttpStatus.NOT_FOUND);
+		}
+		leyprovincialUpdate =leyProvincialService.save(leyprovincialActual);
+		response.put("mensaje", "El cliente ha sido actualizado con exito!");
+		response.put("ley", leyprovincialUpdate);
+		return new ResponseEntity<Map<String,Object>>(response,HttpStatus.CREATED); 
 	}
+	
 	
 	@DeleteMapping("/leyesProvinciales/{id}")
 	@ResponseStatus(HttpStatus.NO_CONTENT)
