@@ -114,12 +114,23 @@ public class LeyProvincialRestController {
 	
 	@DeleteMapping("/leyesProvinciales/{id}")
 	@ResponseStatus(HttpStatus.NO_CONTENT)
-	public void delete(@PathVariable Long id) {
+	public ResponseEntity<?> delete(@PathVariable Long id) {
+		
 		/*
 		 * Poner Parte del video de subir fotos (93.Borrar imagen anterior al
 		 * actualizar)
 		 */
+		Map<String, Object> response = new HashMap<>();
+		try {
+		
 		leyProvincialService.delete(id);
+		}catch(DataAccessException e) {
+		response.put("mensaje", "Error al eliminar la ley de la base de datos");
+		response.put("mensaje", e.getMessage().concat(": ").concat(e.getMostSpecificCause().getMessage()));
+		return new ResponseEntity<Map<String,Object>>(response, HttpStatus.NOT_FOUND);
+	}
+		response.put("mensaje", "El cliente eliminado con exito!");
+		return new ResponseEntity<Map<String,Object>>(response,HttpStatus.OK);
 	}
 	
 	@PostMapping("/leyesProvinciales/upload")
