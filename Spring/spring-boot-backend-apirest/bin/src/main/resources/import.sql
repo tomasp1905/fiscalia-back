@@ -1,0 +1,4 @@
+INSERT INTO leyes (numero, titulo, fecha_sancion, publicacion_BO) VALUES (8024, 'RÉGIMEN GENERAL DE JUBILACIONES, PENSIONES Y RETIROS', '1990-12-19', '1991-01-21');
+INSERT INTO leyes (numero, titulo, fecha_sancion, publicacion_BO) VALUES (7854, 'LEY ORGÁNICA DE FISCALÍA DE ESTADO', '1989-11-21', '1991-01-21');
+INSERT INTO leyes (numero, titulo, fecha_sancion, publicacion_BO) VALUES (9361, 'ESCALAFÓN PARA EL PERSONAL DE LA ADMINISTRACIÓN PÚBLICA PROVINCIAL', '2007-02-21', '2007-03-06');
+INSERT INTO leyes (numero, titulo, fecha_sancion, publicacion_BO) VALUES (7233, 'ESTATUTO DEL PERSONAL DE LA ADMINISTRACIÓN PÚBLICA PROVINCIAL', '1984-12-26', '1985-01-07');
