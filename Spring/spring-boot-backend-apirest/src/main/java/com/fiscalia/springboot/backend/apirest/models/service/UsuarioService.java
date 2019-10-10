@@ -19,10 +19,10 @@ import com.fiscalia.springboot.backend.apirest.models.dao.IUsuarioDao;
 import com.fiscalia.springboot.backend.apirest.models.entity.Usuario;
 
 @Service
-public class UsuarioService implements UserDetailsService {
+public class UsuarioService implements IUsuarioService,UserDetailsService {
 
 	private Logger logger = LoggerFactory.getLogger(UsuarioService.class);
-			
+ 			
 	@Autowired
 	private IUsuarioDao usuarioDao;
 	
@@ -48,8 +48,10 @@ public class UsuarioService implements UserDetailsService {
 	
 	@Transactional(readOnly=true)
 	public Usuario findByUsername(String username) {
-		return usuarioDao.findByUsername(username);
+		return usuarioDao.finByUsername2(username);
 	}
+	
+
 
   
 }
