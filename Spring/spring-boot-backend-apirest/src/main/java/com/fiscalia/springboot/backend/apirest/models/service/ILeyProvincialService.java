@@ -14,5 +14,7 @@ public interface ILeyProvincialService {
 	
 	public void delete (long id);
 	
+	public List<LeyProvincial> findLeyProvincialByTitulo(String term);
+	
 	
 }

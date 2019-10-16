@@ -188,5 +188,11 @@ public class LeyProvincialRestController {
 		cabecera.add(HttpHeaders.CONTENT_DISPOSITION, "attachment; filename=\"" + recurso.getFilename() + "\"");
 		return new ResponseEntity<Resource>(recurso, cabecera, HttpStatus.OK);
 	}
+	
+	@GetMapping("/leyesProvinciales/filtrar-titulo/{term}")
+	@ResponseStatus(HttpStatus.OK)
+	public List<LeyProvincial> filtrarProductos(@PathVariable String term){
+		return leyProvincialService.findLeyProvincialByTitulo(term);
+	}
 
 }

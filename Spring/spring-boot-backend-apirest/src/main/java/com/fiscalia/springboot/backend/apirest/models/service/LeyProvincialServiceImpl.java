@@ -42,6 +42,13 @@ public class LeyProvincialServiceImpl implements ILeyProvincialService {
 		leyProvincialDao.deleteById(id);;
 		
 	}
+
+
+	@Override
+	@Transactional(readOnly = true )
+	public List<LeyProvincial> findLeyProvincialByTitulo(String term) {
+		return (List<LeyProvincial>)  leyProvincialDao.findByTitulo(term);
+	}
 	
 
 }
