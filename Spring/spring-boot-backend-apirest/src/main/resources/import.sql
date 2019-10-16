@@ -4,8 +4,8 @@ INSERT INTO leyes (numero, titulo, fecha_sancion, publicacion_BO) VALUES (9361, 
 INSERT INTO leyes (numero, titulo, fecha_sancion, publicacion_BO) VALUES (7233, 'ESTATUTO DEL PERSONAL DE LA ADMINISTRACIÓN PÚBLICA PROVINCIAL', '1984-12-26', '1985-01-07');
 
 /* Creamos algunos usuarios con sus roles */
-INSERT INTO `usuarios` (username, password, enabled, nombre, apellido, email) VALUES ('andres','$2a$10$ppv7n/4yIBmBHYH0a0GXDutNtzjjnU5w970M/zKqCfXyyBHlak3sO',1, 'Andres', 'Guzman','profesor@bolsadeideas.com');
-INSERT INTO `usuarios` (username, password, enabled, nombre, apellido, email) VALUES ('admin','$2a$10$H2ANnuFIyU22NnAIlWKoB.x/m2eRpyqxdh63WHA6ux.FpgbYRMj92',1, 'John', 'Doe','jhon.doe@bolsadeideas.com');
+INSERT INTO `usuarios` (username, password, enabled, nombre, apellido, email) VALUES ('flor','$2a$10$ppv7n/4yIBmBHYH0a0GXDutNtzjjnU5w970M/zKqCfXyyBHlak3sO',1, 'Flor', 'Gonzales','profesor@bolsadeideas.com');
+INSERT INTO `usuarios` (username, password, enabled, nombre, apellido, email) VALUES ('fabi','$2a$10$H2ANnuFIyU22NnAIlWKoB.x/m2eRpyqxdh63WHA6ux.FpgbYRMj92',1, 'Fabi', 'Mercado','jhon.doe@bolsadeideas.com');
 
 INSERT INTO `roles` (nombre) VALUES ('ROLE_USER');
 INSERT INTO `roles` (nombre) VALUES ('ROLE_ADMIN');
