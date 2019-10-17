@@ -191,8 +191,15 @@ public class LeyProvincialRestController {
 	
 	@GetMapping("/leyesProvinciales/filtrar-titulo/{term}")
 	@ResponseStatus(HttpStatus.OK)
-	public List<LeyProvincial> filtrarProductos(@PathVariable String term){
+	public List<LeyProvincial> filtrarTitulo(@PathVariable String term){
 		return leyProvincialService.findLeyProvincialByTitulo(term);
 	}
+	
+	@GetMapping("/leyesProvinciales/filtrar-numero/{term}")
+	@ResponseStatus(HttpStatus.OK)
+	public List<LeyProvincial> filtrarNumero(@PathVariable String term){
+		return leyProvincialService.findLeyProvincialByNumero(term);
+	}
+
 
 }

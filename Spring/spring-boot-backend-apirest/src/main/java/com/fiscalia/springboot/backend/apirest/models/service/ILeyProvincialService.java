@@ -16,5 +16,8 @@ public interface ILeyProvincialService {
 	
 	public List<LeyProvincial> findLeyProvincialByTitulo(String term);
 	
+	public List<LeyProvincial> findLeyProvincialByNumero(String term);
+
+	
 	
 }

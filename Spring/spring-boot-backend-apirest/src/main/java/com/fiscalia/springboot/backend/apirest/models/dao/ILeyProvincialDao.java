@@ -17,4 +17,9 @@ public interface ILeyProvincialDao  extends CrudRepository<LeyProvincial, Long> 
 	public List<LeyProvincial> findByTituloContainingIgnoreCase(String term);
 	
 	public List<LeyProvincial> findByTituloStartingWithIgnoreCase(String term);
+	
+	@Query("select p from LeyProvincial p where p.numero like ?1")
+	public List<LeyProvincial> findByNumero(String term);
+	
+	
 }

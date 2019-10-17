@@ -49,6 +49,12 @@ public class LeyProvincialServiceImpl implements ILeyProvincialService {
 	public List<LeyProvincial> findLeyProvincialByTitulo(String term) {
 		return (List<LeyProvincial>)  leyProvincialDao.findByTitulo(term);
 	}
+
+
+	@Override
+	public List<LeyProvincial> findLeyProvincialByNumero(String term) {
+		return (List<LeyProvincial>)  leyProvincialDao.findByNumero(term);
+	}
 	
 
 }
