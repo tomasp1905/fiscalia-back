@@ -16,6 +16,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.fiscalia.springboot.backend.apirest.models.dao.IUsuarioDao;
+import com.fiscalia.springboot.backend.apirest.models.entity.LeyProvincial;
 import com.fiscalia.springboot.backend.apirest.models.entity.Usuario;
 
 @Service
@@ -49,6 +50,16 @@ public class UsuarioService implements IUsuarioService,UserDetailsService {
 	@Transactional(readOnly=true)
 	public Usuario findByUsername(String username) {
 		return usuarioDao.finByUsername2(username);
+	}
+
+	@Override
+	public Usuario save(Usuario usuario) {
+		return usuarioDao.save(usuario);
+	}
+
+	@Override
+	public List<Usuario> findAll() {
+		return (List<Usuario>) usuarioDao.findAll();
 	}
 	
 
