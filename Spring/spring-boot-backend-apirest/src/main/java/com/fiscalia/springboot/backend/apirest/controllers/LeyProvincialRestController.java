@@ -15,6 +15,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.UrlResource;
 import org.springframework.dao.DataAccessException;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
+import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -46,6 +49,12 @@ public class LeyProvincialRestController {
 	@GetMapping("/leyesProvinciales") // mapeo a la URL
 	public List<LeyProvincial> index() {
 		return leyProvincialService.findAll();
+	}
+	
+	@GetMapping("/leyesProvinciales/page/{page}") // mapeo a la URL
+	public Page<LeyProvincial> index(@PathVariable Integer page) {
+		Pageable pageable = PageRequest.of(page,4);
+		return leyProvincialService.findAll(pageable);
 	}
 
 	@Secured({"ROLE_ADMIN", "ROLE_USER"})
