@@ -9,6 +9,7 @@ import org.springframework.dao.DataAccessException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.annotation.Secured;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
@@ -30,6 +31,9 @@ public class UsuarioRestController {
 	@Autowired
 	private IUsuarioService usuarioService;
 	
+	@Autowired
+	private BCryptPasswordEncoder passwordEncoder;
+	
 	@GetMapping("/usuarios") // mapeo a la URL
 	public List<Usuario> index() {
 		return usuarioService.findAll();
@@ -38,6 +42,9 @@ public class UsuarioRestController {
 	@PostMapping("/usuarios")
 	@ResponseStatus(HttpStatus.CREATED)
 	public ResponseEntity<?> create(@RequestBody Usuario usuario) {
+		String password = usuario.getPassword();
+		String passwordBCrypt = passwordEncoder.encode(password);
+		usuario.setPassword(passwordBCrypt);
 		Usuario usuarionew = null;
 		Map<String, Object> response = new HashMap<>();
 		try {
