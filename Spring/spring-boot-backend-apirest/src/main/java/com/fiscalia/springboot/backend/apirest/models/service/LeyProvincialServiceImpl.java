@@ -26,7 +26,6 @@ public class LeyProvincialServiceImpl implements ILeyProvincialService {
 	
 	@Transactional(readOnly = true)
 	public LeyProvincial findById(long id) {
-		// TODO Auto-generated method stub
 		return leyProvincialDao.findById(id).orElse(null);
 	}
 

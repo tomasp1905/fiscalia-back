@@ -1,5 +1,7 @@
 	package com.fiscalia.springboot.backend.apirest.models.dao;
 
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.CrudRepository;
 
@@ -11,6 +13,8 @@ public interface IUsuarioDao extends CrudRepository<Usuario, Long> {
 	
 	@Query("select u from Usuario u where u.username=?1")
 	public Usuario finByUsername2(String username);
+
+	public Page<Usuario> findAll(Pageable pageable);
 	
 
 }
