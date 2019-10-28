@@ -17,4 +17,8 @@ public interface IUsuarioService {
 	public List<Usuario> findAll();
 
 	public Page<Usuario> findAll(Pageable pageable);
+
+	public Usuario findById(long id);
+
+	public void delete (long id);
 }

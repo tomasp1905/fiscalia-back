@@ -68,6 +68,18 @@ public class UsuarioService implements IUsuarioService,UserDetailsService {
 	public Page<Usuario> findAll(Pageable pageable) {
 		return  usuarioDao.findAll(pageable);
 	}
+
+	@Transactional(readOnly = true)
+	public Usuario findById(long id) {
+		return usuarioDao.findById(id).orElse(null);
+	}
+
+	@Override
+	public void delete(long id) {
+		usuarioDao.deleteById(id);
+		
+	}
+
 	}
 	
 

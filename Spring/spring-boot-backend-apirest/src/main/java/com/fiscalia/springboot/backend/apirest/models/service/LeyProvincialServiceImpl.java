@@ -39,8 +39,7 @@ public class LeyProvincialServiceImpl implements ILeyProvincialService {
 	
 	@Transactional
 	public void delete(long id) {
-		// TODO Auto-generated method stub
-		leyProvincialDao.deleteById(id);;
+		leyProvincialDao.deleteById(id);
 		
 	}
 
