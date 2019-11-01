@@ -77,7 +77,7 @@ public class LeyProvincialRestController {
 		return new ResponseEntity<LeyProvincial>(leyprovincial, HttpStatus.OK);
 	}
 
-	@Secured("ROLE_ADMIN")
+	@Secured({"ROLE_ADMIN", "ROLE_USER"})
 	@PostMapping("/leyesProvinciales")
 	@ResponseStatus(HttpStatus.CREATED)
 	public ResponseEntity<?> create(@RequestBody LeyProvincial leyprovincial) {
@@ -95,7 +95,7 @@ public class LeyProvincialRestController {
 		return new ResponseEntity<Map<String, Object>>(response, HttpStatus.CREATED);
 	}
 
-	@Secured("ROLE_ADMIN")
+	@Secured({"ROLE_ADMIN", "ROLE_USER"})
 	@PutMapping("/leyesProvinciales/{id}")
 	@ResponseStatus(HttpStatus.CREATED)
 	public ResponseEntity<?> update(@RequestBody LeyProvincial leyprovincial, @PathVariable Long id) {
@@ -177,7 +177,7 @@ public class LeyProvincialRestController {
 		}
 		return new ResponseEntity<Map<String, Object>>(response, HttpStatus.CREATED);
 	}
-
+	
 	@GetMapping("/uploads/img/{nombreFoto:.+}")
 	public ResponseEntity<Resource> verFoto(@PathVariable String nombreFoto) {
 

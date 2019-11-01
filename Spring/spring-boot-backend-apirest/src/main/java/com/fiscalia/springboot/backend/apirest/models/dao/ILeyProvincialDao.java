@@ -22,5 +22,6 @@ public interface ILeyProvincialDao  extends JpaRepository<LeyProvincial, Long> {
 	@Query("select p from LeyProvincial p where p.numero like ?1")
 	public List<LeyProvincial> findByNumero(String term);
 	
+
 	
 }
