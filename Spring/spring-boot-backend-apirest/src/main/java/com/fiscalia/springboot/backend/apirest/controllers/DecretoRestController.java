@@ -46,19 +46,19 @@ public class DecretoRestController {
 	@Autowired // llamo al servicio
 	private IDecreto decretoService;
 
-	@GetMapping("/decreto") // mapeo a la URL
+	@GetMapping("/decretos") // mapeo a la URL
 	public List<Decreto> index() {
 		return decretoService.findAll();
 	}
 	
-	@GetMapping("/decreto/page/{page}") // mapeo a la URL
+	@GetMapping("/decretos/page/{page}") // mapeo a la URL
 	public Page<Decreto> index(@PathVariable Integer page) {
 		Pageable pageable = PageRequest.of(page,4);
 		return decretoService.findAll(pageable);
 	}
 
 	@Secured({"ROLE_ADMIN", "ROLE_USER"})
-	@GetMapping("/decreto/{id}")
+	@GetMapping("/decretos/{id}")
 	public ResponseEntity<?> show(@PathVariable Long id) {
 		Decreto decreto = null;
 		Map<String, Object> response = new HashMap<>();

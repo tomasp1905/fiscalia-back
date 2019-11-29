@@ -1,5 +1,5 @@
-﻿INSERT INTO decretos (numero, titulo, fecha_emision, publicacion_BO) VALUES (8024, 'RÉGIMEN GENERAL DE JUBILACIONES, PENSIONES Y RETIROS', '1990-12-19', '1991-01-21');
-INSERT INTO decretos (numero, titulo, fecha_emision, publicacion_BO) VALUES (8024, 'RÉGIMEN GENERAL DE JUBILACIONES, PENSIONES Y RETIROS', '1990-12-19', '1991-01-21');
+﻿INSERT INTO decretos (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES (8024, 'RÉGIMEN GENERAL DE JUBILACIONES, PENSIONES Y RETIROS', '1990-12-19', '1991-01-21',2019);
+INSERT INTO decretos (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES (8024, 'RÉGIMEN GENERAL DE JUBILACIONES, PENSIONES Y RETIROS', '1990-12-19', '1991-01-21',2019);
 
 INSERT INTO leyes (numero, titulo, fecha_sancion, publicacion_BO) VALUES (8024, 'RÉGIMEN GENERAL DE JUBILACIONES, PENSIONES Y RETIROS', '1990-12-19', '1991-01-21');
 INSERT INTO leyes (numero, titulo, fecha_sancion, publicacion_BO) VALUES (7854, 'LEY ORGÁNICA DE FISCALÍA DE ESTADO', '1989-11-21', '1991-01-21');
