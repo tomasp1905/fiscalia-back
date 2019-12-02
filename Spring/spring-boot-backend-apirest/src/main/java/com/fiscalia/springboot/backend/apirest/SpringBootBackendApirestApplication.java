@@ -19,9 +19,9 @@ public class SpringBootBackendApirestApplication implements CommandLineRunner{
 	public void run(String... args) throws Exception {
 		String password = "12345";
 		
-		for (int i = 0; i < 4; i++) {
+		for (int i = 0; i < 1; i++) {
 			String passwordBcrypt = passwordEncoder.encode(password);
-			System.out.println(passwordBcrypt);
+			System.out.println("Listo");
 			
 		}
 		
