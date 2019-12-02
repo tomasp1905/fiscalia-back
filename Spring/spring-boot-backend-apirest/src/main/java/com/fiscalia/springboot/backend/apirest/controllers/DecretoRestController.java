@@ -57,7 +57,6 @@ public class DecretoRestController {
 		return decretoService.findAll(pageable);
 	}
 
-	@Secured({"ROLE_ADMIN", "ROLE_USER"})
 	@GetMapping("/decretos/{id}")
 	public ResponseEntity<?> show(@PathVariable Long id) {
 		Decreto decreto = null;
@@ -77,7 +76,6 @@ public class DecretoRestController {
 		return new ResponseEntity<Decreto>(decreto, HttpStatus.OK);
 	}
 
-	@Secured({"ROLE_ADMIN", "ROLE_USER"})
 	@PostMapping("/decretos")
 	@ResponseStatus(HttpStatus.CREATED)
 	public ResponseEntity<?> create(@RequestBody Decreto decreto) {
@@ -95,7 +93,6 @@ public class DecretoRestController {
 		return new ResponseEntity<Map<String, Object>>(response, HttpStatus.CREATED);
 	}
 
-	@Secured({"ROLE_ADMIN", "ROLE_USER"})
 	@PutMapping("/decretos/{id}")
 	@ResponseStatus(HttpStatus.CREATED)
 	public ResponseEntity<?> update(@RequestBody Decreto decreto, @PathVariable Long id) {
@@ -124,7 +121,6 @@ public class DecretoRestController {
 		return new ResponseEntity<Map<String, Object>>(response, HttpStatus.CREATED);
 	}
 
-	@Secured("ROLE_ADMIN")
 	@DeleteMapping("/decretos/{id}")
 	@ResponseStatus(HttpStatus.NO_CONTENT)
 	public ResponseEntity<?> delete(@PathVariable Long id) {
@@ -144,7 +140,6 @@ public class DecretoRestController {
 		return new ResponseEntity<Map<String, Object>>(response, HttpStatus.OK);
 	}
 
-	@Secured({"ROLE_ADMIN", "ROLE_USER"})
 	@PostMapping("/decretos/upload")
 	public ResponseEntity<?> upload(@RequestParam("archivo") MultipartFile archivo, @RequestParam("id") Long id) {
 		Map<String, Object> response = new HashMap<>();
