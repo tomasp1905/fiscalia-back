@@ -1,3 +1,4 @@
+
 package com.fiscalia.springboot.backend.apirest.controllers;
 
 import java.io.File;
@@ -35,114 +36,115 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.fiscalia.springboot.backend.apirest.models.entity.LeyProvincial;
-import com.fiscalia.springboot.backend.apirest.models.service.ILeyProvincialService;
+import com.fiscalia.springboot.backend.apirest.models.entity.DecretoLey;
+import com.fiscalia.springboot.backend.apirest.models.service.IDecretoLeyService;
 
 @CrossOrigin(origins = { "http://localhost:4200" }) // conexion con Angular
 @RestController
 @RequestMapping("/api")
-public class LeyProvincialRestController {
+public class DecretoLeyRestController {
 
 	@Autowired // llamo al servicio
-	private ILeyProvincialService leyProvincialService;
+	private IDecretoLeyService decretoService;
 
-	@GetMapping("/leyesProvinciales") // mapeo a la URL
-	public List<LeyProvincial> index() {
-		return leyProvincialService.findAll();
+	@GetMapping("/decretosley") // mapeo a la URL
+	public List<DecretoLey> index() {
+		return decretoService.findAll();
 	}
 	
-	@GetMapping("/leyesProvinciales/page/{page}") // mapeo a la URL
-	public Page<LeyProvincial> index(@PathVariable Integer page) {
+	@GetMapping("/decretosley/page/{page}") // mapeo a la URL
+	public Page<DecretoLey> index(@PathVariable Integer page) {
 		Pageable pageable = PageRequest.of(page,4);
-		return leyProvincialService.findAll(pageable);
+		return decretoService.findAll(pageable);
 	}
 
-	@GetMapping("/leyesProvinciales/{id}")
+	@GetMapping("/decretosley/{id}")
 	public ResponseEntity<?> show(@PathVariable Long id) {
-		LeyProvincial leyprovincial = null;
+		DecretoLey decreto = null;
 		Map<String, Object> response = new HashMap<>();
 		try {
-			leyprovincial = leyProvincialService.findById(id);
+			decreto = decretoService.findById(id);
 		} catch (DataAccessException e) {
 			response.put("mensaje", "Error al realizar la cosulta en la base de datos");
 			response.put("mensaje", e.getMessage().concat(": ").concat(e.getMostSpecificCause().getMessage()));
 			return new ResponseEntity<Map<String, Object>>(response, HttpStatus.NOT_FOUND);
 		}
 
-		if (leyprovincial == null) {
-			response.put("mensaje", "La ley ID: ".concat(id.toString().concat(" no existe en la Base de Datos! ")));
+		if (decreto == null) {
+			response.put("mensaje", "El decreto ley ID: ".concat(id.toString().concat(" no existe en la Base de Datos! ")));
 			return new ResponseEntity<Map<String, Object>>(response, HttpStatus.NOT_FOUND);
 		}
-		return new ResponseEntity<LeyProvincial>(leyprovincial, HttpStatus.OK);
+		return new ResponseEntity<DecretoLey>(decreto, HttpStatus.OK);
 	}
 
-	@PostMapping("/leyesProvinciales")
+	@PostMapping("/decretosley")
 	@ResponseStatus(HttpStatus.CREATED)
-	public ResponseEntity<?> create(@RequestBody LeyProvincial leyprovincial) {
-		LeyProvincial leyprovincialnew = null;
+	public ResponseEntity<?> create(@RequestBody DecretoLey decreto) {
+		DecretoLey decretonew = null;
 		Map<String, Object> response = new HashMap<>();
 		try {
-			leyprovincialnew = leyProvincialService.save(leyprovincial);
+			decretonew = decretoService.save(decreto);
 		} catch (DataAccessException e) {
 			response.put("mensaje", "Error al realizar el insert en la base de datos");
 			response.put("mensaje", e.getMessage().concat(": ").concat(e.getMostSpecificCause().getMessage()));
 			return new ResponseEntity<Map<String, Object>>(response, HttpStatus.NOT_FOUND);
 		}
-		response.put("mensaje", "La Ley ha sido creado con exito!");
-		response.put("ley", leyprovincialnew);
+		response.put("mensaje", "El decreto ley ha sido creado con exito!");
+		response.put("decreto", decretonew);
 		return new ResponseEntity<Map<String, Object>>(response, HttpStatus.CREATED);
 	}
 
-	@PutMapping("/leyesProvinciales/{id}")
+	@PutMapping("/decretosley/{id}")
 	@ResponseStatus(HttpStatus.CREATED)
-	public ResponseEntity<?> update(@RequestBody LeyProvincial leyprovincial, @PathVariable Long id) {
-		LeyProvincial leyprovincialActual = leyProvincialService.findById(id);
-		LeyProvincial leyprovincialUpdate = null;
+	public ResponseEntity<?> update(@RequestBody DecretoLey decreto, @PathVariable Long id) {
+		DecretoLey decretoActual = decretoService.findById(id);
+		DecretoLey decretoUpdate = null;
 		Map<String, Object> response = new HashMap<>();
-		if (leyprovincialActual == null) {
-			response.put("mensaje", "Error no se pudo editar la ley ID: "
+		if (decretoActual == null) {
+			response.put("mensaje", "Error no se pudo editar el decreto ley : "
 					.concat(id.toString().concat(" no existe en la Base de Datos! ")));
 			return new ResponseEntity<Map<String, Object>>(response, HttpStatus.NOT_FOUND);
 		}
 		try {
-			leyprovincialActual.setTitulo(leyprovincial.getTitulo());
-			leyprovincialActual.setFechaSancion(leyprovincial.getFechaSancion());
-			leyprovincialActual.setNumero(leyprovincial.getNumero());
-			leyprovincialActual.setPublicacionBO(leyprovincial.getPublicacionBO());
+			decretoActual.setTitulo(decreto.getTitulo());
+			decretoActual.setNumero(decreto.getNumero());
+			decretoActual.setAnio(decreto.getAnio());
+			decretoActual.setfechaSancion(decreto.getfechaSancion());
+			decretoActual.setPublicacionBO(decreto.getPublicacionBO());
 		} catch (DataAccessException e) {
-			response.put("mensaje", "Error al actualizar la ley en la base de datos");
+			response.put("mensaje", "Error al actualizar el decreto ley en la base de datos");
 			response.put("mensaje", e.getMessage().concat(": ").concat(e.getMostSpecificCause().getMessage()));
 			return new ResponseEntity<Map<String, Object>>(response, HttpStatus.NOT_FOUND);
 		}
-		leyprovincialUpdate = leyProvincialService.save(leyprovincialActual);
-		response.put("mensaje", "La ley ha sido actualizado con exito!");
-		response.put("ley", leyprovincialUpdate);
+		decretoUpdate = decretoService.save(decretoActual);
+		response.put("mensaje", "El decreto ley ha sido actualizado con exito!");
+		response.put("decreto", decretoUpdate);
 		return new ResponseEntity<Map<String, Object>>(response, HttpStatus.CREATED);
 	}
 
-	@DeleteMapping("/leyesProvinciales/{id}")
+	@DeleteMapping("/decretosley/{id}")
 	@ResponseStatus(HttpStatus.NO_CONTENT)
 	public ResponseEntity<?> delete(@PathVariable Long id) {
 
 		Map<String, Object> response = new HashMap<>();
 		try {
-			LeyProvincial leyprovincial = leyProvincialService.findById(id);
-			String nombreLeyAnterior = leyprovincial.getFoto();
+			DecretoLey decreto = decretoService.findById(id);
+			String nombreDecretoAnterior = decreto.getArchivo();
 
-			leyProvincialService.delete(id);
+			decretoService.delete(id);
 		} catch (DataAccessException e) {
-			response.put("mensaje", "Error al eliminar la ley de la base de datos");
+			response.put("mensaje", "Error al eliminar el decreto ley de la base de datos");
 			response.put("mensaje", e.getMessage().concat(": ").concat(e.getMostSpecificCause().getMessage()));
 			return new ResponseEntity<Map<String, Object>>(response, HttpStatus.NOT_FOUND);
 		}
-		response.put("mensaje", "La ley ha sido eliminado con exito!");
+		response.put("mensaje", "El decreto ley ha sido eliminado con exito!");
 		return new ResponseEntity<Map<String, Object>>(response, HttpStatus.OK);
 	}
-	
-	@PostMapping("/leyesProvinciales/upload")
+
+	@PostMapping("/decretosley/upload")
 	public ResponseEntity<?> upload(@RequestParam("archivo") MultipartFile archivo, @RequestParam("id") Long id) {
 		Map<String, Object> response = new HashMap<>();
-		LeyProvincial leyprovincial = leyProvincialService.findById(id);
+		DecretoLey decreto = decretoService.findById(id);
 
 		if (!archivo.isEmpty()) {
 			String nombreArchivo = UUID.randomUUID().toString() + "_" +archivo.getOriginalFilename().replace("", "");
@@ -151,32 +153,32 @@ public class LeyProvincialRestController {
 			try {
 				Files.copy(archivo.getInputStream(), rutaArchivo);
 			} catch (IOException e) {
-				response.put("mensaje", "Error al subir el archivo ley de la Base de Datos" + nombreArchivo);
+				response.put("mensaje", "Error al subir el archivo decreto ley de la Base de Datos" + nombreArchivo);
 				response.put("error", e.getMessage().concat(": ").concat(e.getCause().getMessage()));
 				return new ResponseEntity<Map<String, Object>>(response, HttpStatus.INTERNAL_SERVER_ERROR);
 			}
 
-			String nombreFotoAnterior = leyprovincial.getFoto();
-			if (nombreFotoAnterior != null && nombreFotoAnterior.length() > 0) {
-				Path rutaFotoAnterior = Paths.get("uploads").resolve(nombreFotoAnterior).toAbsolutePath();
-				File archivoFotoAnterior = rutaFotoAnterior.toFile();
-				if (archivoFotoAnterior.exists() && archivoFotoAnterior.canRead()) {
-					archivoFotoAnterior.delete();
+			String nombreArchivoAnterior = decreto.getArchivo();
+			if (nombreArchivoAnterior != null && nombreArchivoAnterior.length() > 0) {
+				Path rutaArchivoAnterior = Paths.get("uploads").resolve(nombreArchivoAnterior).toAbsolutePath();
+				File archivoAnterior = rutaArchivoAnterior.toFile();
+				if (archivoAnterior.exists() && archivoAnterior.canRead()) {
+					archivoAnterior.delete();
 				}
 			}
 
-			leyprovincial.setFoto(nombreArchivo);
-			leyProvincialService.save(leyprovincial);
-			response.put("leyprovincial", leyprovincial);
+			decreto.setArchivo(nombreArchivo);
+			decretoService.save(decreto);
+			response.put("decreto", decreto);
 			response.put("mensaje", "Has subido correctamente el archivo: " + nombreArchivo);
 		}
 		return new ResponseEntity<Map<String, Object>>(response, HttpStatus.CREATED);
 	}
 	
-	@GetMapping("/uploads/img/{nombreFoto:.+}")
-	public ResponseEntity<Resource> verFoto(@PathVariable String nombreFoto) {
+	@GetMapping("/uploads/archivodecreto/{nombreArchivo:.+}")
+	public ResponseEntity<Resource> verFoto(@PathVariable String nombreArchivo) {
 
-		Path rutaArchivo = Paths.get("uploads").resolve(nombreFoto).toAbsolutePath();
+		Path rutaArchivo = Paths.get("uploads").resolve(nombreArchivo).toAbsolutePath();
 		Resource recurso = null;
 
 		try {
@@ -186,23 +188,23 @@ public class LeyProvincialRestController {
 		}
 
 		if (!recurso.exists() && !recurso.isReadable()) {
-			throw new RuntimeException("Error no se pudo cargar el archivo: " + nombreFoto);
+			throw new RuntimeException("Error no se pudo cargar el archivo: " + nombreArchivo);
 		}
 		HttpHeaders cabecera = new HttpHeaders();
 		cabecera.add(HttpHeaders.CONTENT_DISPOSITION, "attachment; filename=\"" + recurso.getFilename() + "\"");
 		return new ResponseEntity<Resource>(recurso, cabecera, HttpStatus.OK);
 	}
 	
-	@GetMapping("/leyesProvinciales/filtrar-titulo/{term}")
+	@GetMapping("/decretosley/filtrar-titulo/{term}")
 	@ResponseStatus(HttpStatus.OK)
-	public List<LeyProvincial> filtrarTitulo(@PathVariable String term){
-		return leyProvincialService.findLeyProvincialByTitulo(term);
+	public List<DecretoLey> filtrarTitulo(@PathVariable String term){
+		return decretoService.findDecretoByTitulo(term);
 	}
 	
-	@GetMapping("/leyesProvinciales/filtrar-numero/{term}")
+	@GetMapping("/decretosley/filtrar-numero/{term}")
 	@ResponseStatus(HttpStatus.OK)
-	public List<LeyProvincial> filtrarNumero(@PathVariable String term){
-		return leyProvincialService.findLeyProvincialByNumero(term);
+	public List<DecretoLey> filtrarNumero(@PathVariable String term){
+		return decretoService.findDecretoByNumero(term);
 	}
 
 
