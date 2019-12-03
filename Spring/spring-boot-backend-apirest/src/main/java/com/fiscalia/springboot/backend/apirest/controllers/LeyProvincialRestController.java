@@ -57,7 +57,6 @@ public class LeyProvincialRestController {
 		return leyProvincialService.findAll(pageable);
 	}
 
-	@Secured({"ROLE_ADMIN", "ROLE_USER"})
 	@GetMapping("/leyesProvinciales/{id}")
 	public ResponseEntity<?> show(@PathVariable Long id) {
 		LeyProvincial leyprovincial = null;
@@ -77,7 +76,6 @@ public class LeyProvincialRestController {
 		return new ResponseEntity<LeyProvincial>(leyprovincial, HttpStatus.OK);
 	}
 
-	@Secured({"ROLE_ADMIN", "ROLE_USER"})
 	@PostMapping("/leyesProvinciales")
 	@ResponseStatus(HttpStatus.CREATED)
 	public ResponseEntity<?> create(@RequestBody LeyProvincial leyprovincial) {
@@ -95,7 +93,6 @@ public class LeyProvincialRestController {
 		return new ResponseEntity<Map<String, Object>>(response, HttpStatus.CREATED);
 	}
 
-	@Secured({"ROLE_ADMIN", "ROLE_USER"})
 	@PutMapping("/leyesProvinciales/{id}")
 	@ResponseStatus(HttpStatus.CREATED)
 	public ResponseEntity<?> update(@RequestBody LeyProvincial leyprovincial, @PathVariable Long id) {
@@ -123,7 +120,6 @@ public class LeyProvincialRestController {
 		return new ResponseEntity<Map<String, Object>>(response, HttpStatus.CREATED);
 	}
 
-	@Secured("ROLE_ADMIN")
 	@DeleteMapping("/leyesProvinciales/{id}")
 	@ResponseStatus(HttpStatus.NO_CONTENT)
 	public ResponseEntity<?> delete(@PathVariable Long id) {
@@ -142,8 +138,6 @@ public class LeyProvincialRestController {
 		response.put("mensaje", "La ley ha sido eliminado con exito!");
 		return new ResponseEntity<Map<String, Object>>(response, HttpStatus.OK);
 	}
-
-	@Secured({"ROLE_ADMIN", "ROLE_USER"})
 	@PostMapping("/leyesProvinciales/upload")
 	public ResponseEntity<?> upload(@RequestParam("archivo") MultipartFile archivo, @RequestParam("id") Long id) {
 		Map<String, Object> response = new HashMap<>();

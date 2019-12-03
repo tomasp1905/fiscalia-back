@@ -19,14 +19,13 @@ import org.springframework.web.filter.CorsFilter;
 @EnableResourceServer
 public class ResourceServerConfig extends ResourceServerConfigurerAdapter {
 
-	/*	@Override
+		@Override
 	public void configure(HttpSecurity http) throws Exception {
 		http.authorizeRequests().antMatchers(HttpMethod.GET,"/api/leyesProvinciales","api/leyesProvinciales/page/**","/api/uploads/img/**","images/**").permitAll()//En esta ruta damos permiso a todo
-		.antMatchers(HttpMethod.GET,"api/leyesProvinciales/{id}").hasAnyRole("USER","ADMIN")
-		.antMatchers(HttpMethod.POST,"api/leyesProvinciales/upload").hasAnyRole("USER","ADMIN")
-		.antMatchers(HttpMethod.POST,"api/leyesProvinciales").hasRole("USER")
-		.antMatchers("api/leyesProvinciales/**").hasRole("ADMIN")
-		.anyRequest().authenticated()
+		.antMatchers(HttpMethod.GET,"api/leyesProvinciales/{id}").permitAll()
+		.antMatchers(HttpMethod.POST,"api/leyesProvinciales/upload").permitAll()
+		.antMatchers(HttpMethod.POST,"api/leyesProvinciales").permitAll()
+		.antMatchers("api/leyesProvinciales/**").permitAll()
 		.and().cors().configurationSource(corsConfigurationSource()); 
 	}
 	@Bean 
@@ -48,5 +47,5 @@ public class ResourceServerConfig extends ResourceServerConfigurerAdapter {
 		bean.setOrder(Ordered.HIGHEST_PRECEDENCE);
 		return bean;
 	}
-*/
+
 }
