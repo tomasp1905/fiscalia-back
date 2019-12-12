@@ -146,6 +146,8 @@ public class LeyProvincialRestController {
 
 		if (!archivo.isEmpty()) {
 			String nombreArchivo = UUID.randomUUID().toString() + "_" +archivo.getOriginalFilename().replace("", "");
+			String nombreArchivo2 = archivo.getOriginalFilename().replace("", "");
+			
 			Path rutaArchivo = Paths.get("uploads").resolve(nombreArchivo).toAbsolutePath();
 
 			try {
@@ -168,7 +170,7 @@ public class LeyProvincialRestController {
 			leyprovincial.setFoto(nombreArchivo);
 			leyProvincialService.save(leyprovincial);
 			response.put("leyprovincial", leyprovincial);
-			response.put("mensaje", "Has subido correctamente el archivo: " + nombreArchivo);
+			response.put("mensaje", "Has subido correctamente el archivo: " + nombreArchivo2);
 		}
 		return new ResponseEntity<Map<String, Object>>(response, HttpStatus.CREATED);
 	}
