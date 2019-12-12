@@ -37,6 +37,14 @@ public class DecretoReglamentario implements Serializable {
 
 	private String archivo;
 	
+	private String relacion;
+	
+	public String getRelacion() {
+		return relacion;
+	}
+	public void setRelacion(String relacion) {
+		this.relacion = relacion;
+	}
 	public String getArchivo() {
 		return archivo;
 	}

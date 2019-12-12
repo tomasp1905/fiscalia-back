@@ -109,6 +109,7 @@ public class DecretoReglamentarioRestController {
 			decretoReglamentarioActual.setAnio(decretoReglamentarioActual.getAnio());
 			decretoReglamentarioActual.setfechaEmision(decretoReglamentarioActual.getfechaEmision());
 			decretoReglamentarioActual.setPublicacionBO(decretoReglamentarioActual.getPublicacionBO());
+			decretoReglamentarioActual.setRelacion(decretoReglamentarioActual.getRelacion());
 		} catch (DataAccessException e) {
 			response.put("mensaje", "Error al actualizar el decreto reglamentario en la base de datos");
 			response.put("mensaje", e.getMessage().concat(": ").concat(e.getMostSpecificCause().getMessage()));
@@ -120,7 +121,7 @@ public class DecretoReglamentarioRestController {
 		return new ResponseEntity<Map<String, Object>>(response, HttpStatus.CREATED);
 	}
 
-	@DeleteMapping("/decretosReglamentarios/{id}")
+	@DeleteMapping("/decretosReglamentario/{id}")
 	@ResponseStatus(HttpStatus.NO_CONTENT)
 	public ResponseEntity<?> delete(@PathVariable Long id) {
 
