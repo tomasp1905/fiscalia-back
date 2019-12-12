@@ -76,7 +76,7 @@ public class DecretoReglamentarioRestController {
 		return new ResponseEntity<DecretoReglamentario>(decretoReglamentario, HttpStatus.OK);
 	}
 
-	@PostMapping("/decretoReglamentario")
+	@PostMapping("/decretosReglamentario")
 	@ResponseStatus(HttpStatus.CREATED)
 	public ResponseEntity<?> create(@RequestBody DecretoReglamentario decretoReglamentario) {
 		DecretoReglamentario decretoReglamentarionew = null;
