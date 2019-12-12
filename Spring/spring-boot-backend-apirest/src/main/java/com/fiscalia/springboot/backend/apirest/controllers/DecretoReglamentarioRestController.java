@@ -139,7 +139,7 @@ public class DecretoReglamentarioRestController {
 		return new ResponseEntity<Map<String, Object>>(response, HttpStatus.OK);
 	}
 
-	@PostMapping("/decretosReglamentarios/upload")
+	@PostMapping("/decretosReglamentario/upload")
 	public ResponseEntity<?> upload(@RequestParam("archivo") MultipartFile archivo, @RequestParam("id") Long id) {
 		Map<String, Object> response = new HashMap<>();
 		DecretoReglamentario decretoReglamentario = decretoReglamentarioService.findById(id);
