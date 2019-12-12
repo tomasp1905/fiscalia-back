@@ -14,8 +14,8 @@ import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
 @Entity
-@Table(name="decretosley")
-public class DecretoLey implements Serializable {
+@Table(name="decretosReglamentario")
+public class DecretoReglamentario implements Serializable {
 
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
@@ -23,9 +23,6 @@ public class DecretoLey implements Serializable {
 	
 	@Column(nullable=false)
 	private String numero;
-
-	@Column(nullable=false)
-	private String titulo;
 	
 	@Column(nullable=false)
 	private String anio;
@@ -67,17 +64,6 @@ public class DecretoLey implements Serializable {
 		this.numero = numero;
 	}
 
-
-	public String getTitulo() {
-		return titulo;
-	}
-
-
-	public void setTitulo(String titulo) {
-		this.titulo = titulo;
-	}
-
-
 	public String getAnio() {
 		return anio;
 	}
@@ -93,8 +79,8 @@ public class DecretoLey implements Serializable {
 	}
 
 
-	public void setfechaSancion(Date fechaSancion) {
-		this.fechaEmision = fechaSancion;
+	public void setfechaSancion(Date fechaEmision) {
+		this.fechaEmision = fechaEmision;
 	}
 
 
