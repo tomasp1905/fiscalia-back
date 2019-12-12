@@ -93,7 +93,7 @@ public class DecretoReglamentarioRestController {
 		return new ResponseEntity<Map<String, Object>>(response, HttpStatus.CREATED);
 	}
 
-	@PutMapping("/decretosreglamentario/{id}")
+	@PutMapping("/decretosReglamentario/{id}")
 	@ResponseStatus(HttpStatus.CREATED)
 	public ResponseEntity<?> update(@RequestBody DecretoReglamentario decretoReglamentario, @PathVariable Long id) {
 		DecretoReglamentario decretoReglamentarioActual = decretoReglamentarioService.findById(id);
