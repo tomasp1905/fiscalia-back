@@ -107,7 +107,7 @@ public class DecretoReglamentarioRestController {
 		try {
 			decretoReglamentarioActual.setNumero(decretoReglamentarioActual.getNumero());
 			decretoReglamentarioActual.setAnio(decretoReglamentarioActual.getAnio());
-			decretoReglamentarioActual.setfechaSancion(decretoReglamentarioActual.getfechaSancion());
+			decretoReglamentarioActual.setfechaEmision(decretoReglamentarioActual.getfechaEmision());
 			decretoReglamentarioActual.setPublicacionBO(decretoReglamentarioActual.getPublicacionBO());
 		} catch (DataAccessException e) {
 			response.put("mensaje", "Error al actualizar el decreto reglamentario en la base de datos");

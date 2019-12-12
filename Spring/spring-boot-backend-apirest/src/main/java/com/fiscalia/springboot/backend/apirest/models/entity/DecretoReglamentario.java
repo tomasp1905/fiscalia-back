@@ -74,12 +74,12 @@ public class DecretoReglamentario implements Serializable {
 	}
 
 
-	public Date getfechaSancion() {
+	public Date getfechaEmision() {
 		return fechaEmision;
 	}
 
 
-	public void setfechaSancion(Date fechaEmision) {
+	public void setfechaEmision(Date fechaEmision) {
 		this.fechaEmision = fechaEmision;
 	}
 
