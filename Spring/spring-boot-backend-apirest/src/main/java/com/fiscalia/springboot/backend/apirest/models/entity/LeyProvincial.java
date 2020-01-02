@@ -2,13 +2,18 @@ package com.fiscalia.springboot.backend.apirest.models.entity;
 
 import java.io.Serializable;
 import java.util.Date;
+import java.util.List;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
 import javax.persistence.Lob;
+import javax.persistence.ManyToMany;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
@@ -35,9 +40,18 @@ public class LeyProvincial implements Serializable {
 	
 	private String foto;
 	
+	
+	@ManyToMany(cascade = {CascadeType.ALL})
+	@JoinTable(
+		name = "ley_decretoReg",
+		joinColumns = @JoinColumn(name = "leyes_id", referencedColumnName = "id"),
+		inverseJoinColumns = @JoinColumn(name = "decretosReglamentario_id", referencedColumnName = "id"))
+	private List<DecretoReglamentario> decretoReglamentario;
+	
 	public String getFoto() {
 		return foto;
 	}
+
 
 	public void setFoto(String foto) {
 		this.foto = foto;
@@ -87,5 +101,15 @@ public class LeyProvincial implements Serializable {
 	 Atributo estático que necesita Serializable. No afecta en nada
 	 */
 	private static final long serialVersionUID = 1L;
+
+	public List<DecretoReglamentario> getDecretoReglamentario() {
+		return decretoReglamentario;
+	}
+
+
+	public void setDecretoReglamentario(List<DecretoReglamentario> decretoReglamentario) {
+		this.decretoReglamentario = decretoReglamentario;
+	}
+	
 
 }

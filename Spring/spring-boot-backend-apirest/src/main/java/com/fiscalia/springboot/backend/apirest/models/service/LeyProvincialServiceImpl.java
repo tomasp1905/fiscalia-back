@@ -1,5 +1,6 @@
 package com.fiscalia.springboot.backend.apirest.models.service;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,7 +9,9 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import com.fiscalia.springboot.backend.apirest.models.dao.IDecretoReglamentarioDao;
 import com.fiscalia.springboot.backend.apirest.models.dao.ILeyProvincialDao;
+import com.fiscalia.springboot.backend.apirest.models.entity.DecretoReglamentario;
 import com.fiscalia.springboot.backend.apirest.models.entity.LeyProvincial;
 
 @Service //determinamos que esta clase es un Servicio
@@ -17,6 +20,9 @@ public class LeyProvincialServiceImpl implements ILeyProvincialService {
 	
 	@Autowired 
 	private ILeyProvincialDao  leyProvincialDao;
+	
+	@Autowired // llamo al servicio
+	private IDecretoReglamentarioService decretoReglamentarioService;
 	
 	@Transactional(readOnly = true) //porque es una consulta de solo lectura, es opcional pero es recomendable ponerlo.
 	public List<LeyProvincial> findAll() {
@@ -63,5 +69,17 @@ public class LeyProvincialServiceImpl implements ILeyProvincialService {
 		return leyProvincialDao.findAll(pageable);
 	}
 	
+	private void asignarDecretoEnLey (LeyProvincial leyprovincial, List<DecretoReglamentario> listaDecretos) {
+		if(!listaDecretos.isEmpty()) {
+			List<DecretoReglamentario> listaDecretosDeLey = new ArrayList<>();
+			for (int i = 0; i < listaDecretos.size(); i++) {
+				List<DecretoReglamentario> decretoReglamentario = decretoReglamentarioService.findDecretoByNumero(listaDecretos.get(i).getNumero());
+			if(decretoReglamentario != null) {
+				listaDecretosDeLey.addAll(decretoReglamentario);
+			}	
+			}
+			leyprovincial.setDecretoReglamentario(listaDecretosDeLey);
+		}
+	}
 
 }
