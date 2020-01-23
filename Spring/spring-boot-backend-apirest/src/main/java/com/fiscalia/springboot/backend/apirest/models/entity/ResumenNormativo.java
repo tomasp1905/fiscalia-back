@@ -22,23 +22,12 @@ public class ResumenNormativo implements Serializable {
 	private long id;
 	
 	@Column(nullable=false)
-	private String mes;
+	@Temporal(TemporalType.DATE)
+	private Date fecha;
 
-	@Column(nullable=false)
-	private String anio;
-	
-	@Column(nullable=false)
-	private String semana;
 
 	private String archivo;
 	
-	public String getArchivo() {
-		return archivo;
-	}
-	public void setArchivo(String archivo) {
-		this.archivo = archivo;
-	}
-
 	
 	public long getId() {
 		return id;
@@ -50,30 +39,23 @@ public class ResumenNormativo implements Serializable {
 	}
 
 
-	public String getMes() {
-		return mes;
+	public Date getFecha() {
+		return fecha;
 	}
 
 
-	public void setMes(String mes) {
-		this.mes = mes;
-	}
-
-	public String getAnio() {
-		return anio;
+	public void setFecha(Date fecha) {
+		this.fecha = fecha;
 	}
 
 
-	public void setAnio(String anio) {
-		this.anio = anio;
+	public String getArchivo() {
+		return archivo;
 	}
 
 
-	public String getSemana() {
-		return semana;
-	}
-	public void setSemana(String semana) {
-		this.semana = semana;
+	public void setArchivo(String archivo) {
+		this.archivo = archivo;
 	}
 
 

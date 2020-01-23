@@ -19,7 +19,7 @@ public interface IResumenNormativoService {
 	
 	public void delete (long id);
 	
-	public List<ResumenNormativo> findResumenNormativoByAnio(String term);
+//	public List<ResumenNormativo> findResumenNormativoByAnio(String term);
 
 	
 	

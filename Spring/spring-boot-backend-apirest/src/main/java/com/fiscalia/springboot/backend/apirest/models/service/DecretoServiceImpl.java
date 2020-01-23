@@ -63,5 +63,10 @@ public class DecretoServiceImpl implements IDecreto {
 		return decretoDao.save(decreto);
 	}
 	
+	@Override
+	public List<Decreto> findDecretoByAnio(String term) {
+		return (List<Decreto>)  decretoDao.findByAnio(term);
+	}
+	
 
 }

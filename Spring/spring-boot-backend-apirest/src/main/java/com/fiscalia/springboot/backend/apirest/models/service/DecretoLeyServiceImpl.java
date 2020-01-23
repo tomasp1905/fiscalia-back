@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.fiscalia.springboot.backend.apirest.models.dao.IDecretoLeyDao;
+import com.fiscalia.springboot.backend.apirest.models.entity.Decreto;
 import com.fiscalia.springboot.backend.apirest.models.entity.DecretoLey;
 
 
@@ -43,6 +44,11 @@ public class DecretoLeyServiceImpl implements IDecretoLeyService {
 	public List<DecretoLey> findDecretoByNumero(String term) {
 		return (List<DecretoLey>)  decretoDao.findByNumero(term);
 	}
+	
+	@Override
+	public List<DecretoLey> findDecretoByAnio(String term) {
+		return (List<DecretoLey>)  decretoDao.findByAnio(term);
+	}
 
 
 	@Override
@@ -62,7 +68,8 @@ public class DecretoLeyServiceImpl implements IDecretoLeyService {
 	public DecretoLey save(DecretoLey decreto) {
 		return decretoDao.save(decreto);
 	}
-
+	
+	
 
 
 	

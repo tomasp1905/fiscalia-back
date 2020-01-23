@@ -1,17 +1,69 @@
-﻿INSERT INTO decretosley (numero, titulo, fecha_sancion, publicacion_BO,anio) VALUES (8024, 'RÉGIMEN GENERAL DE JUBILACIONES, PENSIONES Y RETIROS', '1990-12-19', '1991-01-21',2019);
+INSERT INTO decretosley (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('214-E-63', 'ESTATUTO Y ESCALAFÓN DE LA DOCENCIA MEDIA, ESPECIAL Y SUPERIOR', '1963-04-25', '1963-05-10',1963);
+INSERT INTO decretosley (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('1046-B-56', 'MODIFICATORIA DE LA LEY DE CATASTRO N° 3881', '1956-03-01', '1956-03-09',1956);
+INSERT INTO decretosley (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('1185-B-63', 'MODIFICACIÓN DE LA CARTA ORGÁNICA DEL BANCO DE LA PROVINCIA DE CORDOBA', '1963-10-01', '1963-10-09',1963);
+INSERT INTO decretosley (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('2111-C-56', 'DECRETO LEY FORESTAL DE LA PROVINCIA DE CORDOBA', '1956-12-12', '1956-12-18',1956);
+INSERT INTO decretosley (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('1910-E-57', 'ESTATUTO DE LA DOCENCIA PRIMARIA', '1957-04-10', '1957-05-14',1957);
+INSERT INTO decretosley (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('2164-B-61', 'PARTICIPACIÓN IMPOSITIVA ANUAL A MUNICIPALIDADES', '1961-12-29', '1961-12-31',1961);
+INSERT INTO decretosley (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('2380-B-56', 'FUNCIONAMIENTO DEL INSTITUTO DE PREVISIÓN SOCIAL.', '1956-10-16', '1956-10-26',1956);
+INSERT INTO decretosley (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('3270-B-57', 'FUNCIONAMIENTO CAJA PROVINCIAL JUBILACIONES Y PENSIONES', '1957-04-10', '1957-04-20',1957);
+INSERT INTO decretosley (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('214-E-63', 'ESTATUTO Y ESCALAFÓN DE LA DOCENCIA MEDIA, ESPECIAL Y SUPERIOR 2', '1963-04-25', '1963-05-10',1963);
+INSERT INTO decretosley (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('1046-B-56', 'MODIFICATORIA DE LA LEY DE CATASTRO N° 3881 2', '1956-03-01', '1956-03-09',1956);
+INSERT INTO decretosley (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('1185-B-63', 'MODIFICACIÓN DE LA CARTA ORGÁNICA DEL BANCO DE LA PROVINCIA DE CORDOBA 2', '1963-10-01', '1963-10-09',1963);
+INSERT INTO decretosley (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('2111-C-56', 'DECRETO LEY FORESTAL DE LA PROVINCIA DE CORDOBA 2', '1956-12-12', '1956-12-18',1956);
+INSERT INTO decretosley (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('1910-E-57', 'ESTATUTO DE LA DOCENCIA PRIMARIA 2', '1957-04-10', '1957-05-14',1957);
+INSERT INTO decretosley (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('2164-B-61', 'PARTICIPACIÓN IMPOSITIVA ANUAL A MUNICIPALIDADES 2', '1961-12-29', '1961-12-31',1961);
+INSERT INTO decretosley (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('2380-B-56', 'FUNCIONAMIENTO DEL INSTITUTO DE PREVISIÓN SOCIAL. 2', '1956-10-16', '1956-10-26',1956);
+INSERT INTO decretosley (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('3270-B-57', 'FUNCIONAMIENTO CAJA PROVINCIAL JUBILACIONES Y PENSIONES 2', '1957-04-10', '1957-04-20',1957);
+INSERT INTO decretosley (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('214-E-63', 'ESTATUTO Y ESCALAFÓN DE LA DOCENCIA MEDIA, ESPECIAL Y SUPERIOR 3', '1963-04-25', '1963-05-10',1963);
+INSERT INTO decretosley (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('1046-B-56', 'MODIFICATORIA DE LA LEY DE CATASTRO N° 3881 3', '1956-03-01', '1956-03-09',1956);
+INSERT INTO decretosley (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('1185-B-63', 'MODIFICACIÓN DE LA CARTA ORGÁNICA DEL BANCO DE LA PROVINCIA DE CORDOBA 3', '1963-10-01', '1963-10-09',1963);
+INSERT INTO decretosley (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('2111-C-56', 'DECRETO LEY FORESTAL DE LA PROVINCIA DE CORDOBA 3', '1956-12-12', '1956-12-18',1956);
+INSERT INTO decretosley (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('1910-E-57', 'ESTATUTO DE LA DOCENCIA PRIMARIA 3 ', '1957-04-10', '1957-05-14',1957);
+INSERT INTO decretosley (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('2164-B-61', 'PARTICIPACIÓN IMPOSITIVA ANUAL A MUNICIPALIDADES 3', '1961-12-29', '1961-12-31',1961);
+INSERT INTO decretosley (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('2380-B-56', 'FUNCIONAMIENTO DEL INSTITUTO DE PREVISIÓN SOCIAL. 3', '1956-10-16', '1956-10-26',1956);
+INSERT INTO decretosley (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('3270-B-57', 'FUNCIONAMIENTO CAJA PROVINCIAL JUBILACIONES Y PENSIONES 3', '1957-04-10', '1957-04-20',1957);
+INSERT INTO decretosley (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('214-E-63', 'ESTATUTO Y ESCALAFÓN DE LA DOCENCIA MEDIA, ESPECIAL Y SUPERIOR 4', '1963-04-25', '1963-05-10',1963);
+INSERT INTO decretosley (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('1046-B-56', 'MODIFICATORIA DE LA LEY DE CATASTRO N° 3881 4', '1956-03-01', '1956-03-09',1956);
+INSERT INTO decretosley (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('1185-B-63', 'MODIFICACIÓN DE LA CARTA ORGÁNICA DEL BANCO DE LA PROVINCIA DE CORDOBA 4', '1963-10-01', '1963-10-09',1963);
+INSERT INTO decretosley (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('2111-C-56', 'DECRETO LEY FORESTAL DE LA PROVINCIA DE CORDOBA 4 ', '1956-12-12', '1956-12-18',1956);
+INSERT INTO decretosley (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('1910-E-57', 'ESTATUTO DE LA DOCENCIA PRIMARIA 4', '1957-04-10', '1957-05-14',1957);
+INSERT INTO decretosley (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('2164-B-61', 'PARTICIPACIÓN IMPOSITIVA ANUAL A MUNICIPALIDADES 4', '1961-12-29', '1961-12-31',1961);
+INSERT INTO decretosley (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('2380-B-56', 'FUNCIONAMIENTO DEL INSTITUTO DE PREVISIÓN SOCIAL. 4', '1956-10-16', '1956-10-26',1956);
+INSERT INTO decretosley (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('3270-B-57', 'FUNCIONAMIENTO CAJA PROVINCIAL JUBILACIONES Y PENSIONES 4', '1957-04-10', '1957-04-20',1957);
 
-INSERT INTO decretos (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES (8024, 'RÉGIMEN GENERAL DE JUBILACIONES, PENSIONES Y RETIROS', '1990-12-19', '1991-01-21',2019);
-INSERT INTO decretos (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES (8024, 'RÉGIMEN GENERAL DE JUBILACIONES, PENSIONES Y RETIROS', '1990-12-19', '1991-01-21',2019);
+INSERT INTO decretos (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('453-00', 'INTERVENCIÓN DEL BANCO DE LA PROVINCIA DE CÓRDOBA', '2000-03-29', '2000-04-10',2000);
+INSERT INTO decretos (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('1341-00', 'CREACIÓN DEL PROGRAMA DE APOYO FINANCIERO(PR.A.FI)', '2000-08-31', '2000-10-03',2000);
+INSERT INTO decretos (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('453-00', 'INTERVENCIÓN DEL BANCO DE LA PROVINCIA DE CÓRDOBA', '2000-03-29', '2000-04-10',2000);
+INSERT INTO decretos (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('1341-00', 'CREACIÓN DEL PROGRAMA DE APOYO FINANCIERO(PR.A.FI)', '2000-08-31', '2000-10-03',2000);
+INSERT INTO decretos (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('453-00', 'INTERVENCIÓN DEL BANCO DE LA PROVINCIA DE CÓRDOBA', '2000-03-29', '2000-04-10',2000);
+INSERT INTO decretos (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('1341-00', 'CREACIÓN DEL PROGRAMA DE APOYO FINANCIERO(PR.A.FI)', '2000-08-31', '2000-10-03',2000);
+INSERT INTO decretos (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('453-00', 'INTERVENCIÓN DEL BANCO DE LA PROVINCIA DE CÓRDOBA', '2000-03-29', '2000-04-10',2000);
+INSERT INTO decretos (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('1341-00', 'CREACIÓN DEL PROGRAMA DE APOYO FINANCIERO(PR.A.FI)', '2000-08-31', '2000-10-03',2000);
+INSERT INTO decretos (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('453-00', 'INTERVENCIÓN DEL BANCO DE LA PROVINCIA DE CÓRDOBA', '2000-03-29', '2000-04-10',2000);
+INSERT INTO decretos (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('1341-00', 'CREACIÓN DEL PROGRAMA DE APOYO FINANCIERO(PR.A.FI)', '2000-08-31', '2000-10-03',2000);
+INSERT INTO decretos (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('453-00', 'INTERVENCIÓN DEL BANCO DE LA PROVINCIA DE CÓRDOBA', '2000-03-29', '2000-04-10',2000);
+INSERT INTO decretos (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('1341-00', 'CREACIÓN DEL PROGRAMA DE APOYO FINANCIERO(PR.A.FI)', '2000-08-31', '2000-10-03',2000);
+INSERT INTO decretos (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('453-00', 'INTERVENCIÓN DEL BANCO DE LA PROVINCIA DE CÓRDOBA', '2000-03-29', '2000-04-10',2000);
+INSERT INTO decretos (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('1341-00', 'CREACIÓN DEL PROGRAMA DE APOYO FINANCIERO(PR.A.FI)', '2000-08-31', '2000-10-03',2000);
+INSERT INTO decretos (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('453-00', 'INTERVENCIÓN DEL BANCO DE LA PROVINCIA DE CÓRDOBA', '2000-03-29', '2000-04-10',2000);
+INSERT INTO decretos (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('1341-00', 'CREACIÓN DEL PROGRAMA DE APOYO FINANCIERO(PR.A.FI)', '2000-08-31', '2000-10-03',2000);
+INSERT INTO decretos (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('453-00', 'INTERVENCIÓN DEL BANCO DE LA PROVINCIA DE CÓRDOBA', '2000-03-29', '2000-04-10',2000);
+INSERT INTO decretos (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('1341-00', 'CREACIÓN DEL PROGRAMA DE APOYO FINANCIERO(PR.A.FI)', '2000-08-31', '2000-10-03',2000);
+INSERT INTO decretos (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('453-00', 'INTERVENCIÓN DEL BANCO DE LA PROVINCIA DE CÓRDOBA', '2000-03-29', '2000-04-10',2000);
+INSERT INTO decretos (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('1341-00', 'CREACIÓN DEL PROGRAMA DE APOYO FINANCIERO(PR.A.FI)', '2000-08-31', '2000-10-03',2000);
+INSERT INTO decretos (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('453-00', 'INTERVENCIÓN DEL BANCO DE LA PROVINCIA DE CÓRDOBA', '2000-03-29', '2000-04-10',2000);
+INSERT INTO decretos (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('1341-00', 'CREACIÓN DEL PROGRAMA DE APOYO FINANCIERO(PR.A.FI)', '2000-08-31', '2000-10-03',2000);
+INSERT INTO decretos (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('453-00', 'INTERVENCIÓN DEL BANCO DE LA PROVINCIA DE CÓRDOBA', '2000-03-29', '2000-04-10',2000);
+INSERT INTO decretos (numero, titulo, fecha_emision, publicacion_BO,anio) VALUES ('1341-00', 'CREACIÓN DEL PROGRAMA DE APOYO FINANCIERO(PR.A.FI)', '2000-08-31', '2000-10-03',2000);
+
 
 INSERT INTO leyes (numero, titulo, fecha_sancion, publicacion_BO) VALUES (8024, 'RÉGIMEN GENERAL DE JUBILACIONES, PENSIONES Y RETIROS', '1990-12-19', '1991-01-21');
 INSERT INTO leyes (numero, titulo, fecha_sancion, publicacion_BO) VALUES (7854, 'LEY ORGÁNICA DE FISCALÍA DE ESTADO', '1989-11-21', '1991-01-21');
 INSERT INTO leyes (numero, titulo, fecha_sancion, publicacion_BO) VALUES (9361, 'ESCALAFÓN PARA EL PERSONAL DE LA ADMINISTRACIÓN PÚBLICA PROVINCIAL', '2007-02-21', '2007-03-06');
 INSERT INTO leyes (numero, titulo, fecha_sancion, publicacion_BO) VALUES (6541, 'MODIFICACIÓN DE LEY Nº 9235-SEGURIDAD PÚBLICA PARA LA PROVINCIA DE CÓRDOBA', '1984-12-26', '1985-01-07');
 INSERT INTO leyes (numero, titulo, fecha_sancion, publicacion_BO) VALUES (56460, 'MODIFICACIÓN DE LEY Nº 9235-SEGURIDAD PÚBLICA PARA LA PROVINCIA DE CÓRDOBA', '26.10.2011', ' 05.12.2011');
-
 INSERT INTO leyes (numero, titulo, fecha_sancion, publicacion_BO) VALUES (10000, 'MODIFICACIÓN LEY Nº 9728- PERSONAL POLICIAL DE LA PROVINCIA', '26.10.11', ' 05.12.2011');
 INSERT INTO leyes (numero, titulo, fecha_sancion, publicacion_BO) VALUES (10001, 'SUSPENSIÓN DE LAS EJECUCIONES JUDICIALES QUE PERSIGAN SUBASTA DE INMUEBLES PROPIEDAD DE ASOCIACIONES CIVILES, CLUBES O ENTIDADES SIN FINES DE LUCRO', ' 02.11.2011', '05.12.2011');
-
 INSERT INTO leyes (numero, titulo, fecha_sancion, publicacion_BO) VALUES (10002, 'MODIFICACIÓN LEY Nº 8431 -CÓDIGO DE FALTAS DE LA PROVINCIA.', '26.10.11', '05.12.2011');
 INSERT INTO leyes (numero, titulo, fecha_sancion, publicacion_BO) VALUES (10003, 'SUSPENSIÓN DE LAS EJECUCIONES JUDICIALES QUE PERSIGAN SUBASTA DE INMUEBLES PROPIEDAD DE ASOCIACIONES CIVILES, CLUBES O ENTIDADES SIN FINES DE LUCRO', ' 02.11.2011', '05.12.2011');
 INSERT INTO leyes (numero, titulo, fecha_sancion, publicacion_BO) VALUES (10004, 'SE IMPLEMENTA LA SEGUNDA ETAPA DEL “PLAN METROPOLITANO DE USOS DEL SUELO, COMPLETANDO LA PRIMERA ETAPA QUE SURGE DE LEY Nº 9841, CONFORMANDO AMBOS COMPONENTES “EL PLAN VIAL DIRECTOR PARA REGIÓN METROPOLITANA, SEGÚN LEY Nº 9687', ' 02.11.2011', '05.12.2011');
@@ -44,7 +96,7 @@ INSERT INTO leyes (numero, titulo, fecha_sancion, publicacion_BO) VALUES (10031,
 INSERT INTO leyes (numero, titulo, fecha_sancion, publicacion_BO) VALUES (10032, 'RATIFICA DECRETO Nº 2598/11 – EXIMICIÓN DEL PAGO DEL IMPUESTO SOBRE LOS INGRESOS BRUTOS A LAS ACTIVIDADES DE PRODUCCIÓN, REPRESENTACIÓN, COMPOSICIÓN E INTERPRETACIÓN DE EVENTOS CULTURALES Y/O ESPECTÁCULOS MUSICALES, ARTÍSTICOS Y CIRCENSES', ' 02.11.2011', '05.12.2011');
 INSERT INTO leyes (numero, titulo, fecha_sancion, publicacion_BO) VALUES (10033, 'MODIFICACIÓN L. Nº 8751 -MANEJO DEL FUEGO Y L. Nº 9576 -MODIFICACIONES AL CÓDIGO TRIBUTARIO', ' 02.11.2011', '05.12.2011');
 
-/* Creamos algunos usuarios con sus roles */
+/* Creamos algunos usuarios con sus roles
 INSERT INTO `usuarios` (username, password, enabled, nombre, apellido, email) VALUES ('flor','$2a$10$ppv7n/4yIBmBHYH0a0GXDutNtzjjnU5w970M/zKqCfXyyBHlak3sO',1, 'Flor', 'Gonzales','profesor@bolsadeideas.com');
 INSERT INTO `usuarios` (username, password, enabled, nombre, apellido, email) VALUES ('fabi','$2a$10$H2ANnuFIyU22NnAIlWKoB.x/m2eRpyqxdh63WHA6ux.FpgbYRMj92',1, 'Fabi', 'Mercado','jhon.doe@bolsadeideas.com');
 
@@ -53,4 +105,4 @@ INSERT INTO `roles` (nombre) VALUES ('ROLE_ADMIN');
 
 INSERT INTO `usuarios_roles` (usuario_id, role_id) VALUES (1, 1);
 INSERT INTO `usuarios_roles` (usuario_id, role_id) VALUES (2, 2);
-INSERT INTO `usuarios_roles` (usuario_id, role_id) VALUES (2, 1);
+INSERT INTO `usuarios_roles` (usuario_id, role_id) VALUES (2, 1);  */

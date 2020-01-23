@@ -105,9 +105,8 @@ public class ResumenNormativoRestController {
 			return new ResponseEntity<Map<String, Object>>(response, HttpStatus.NOT_FOUND);
 		}
 		try {
-			resumenNormativoActual.setAnio(resumenNormativo.getAnio());
-			resumenNormativoActual.setMes(resumenNormativo.getMes());
-			resumenNormativoActual.setSemana(resumenNormativo.getSemana());
+			resumenNormativoActual.setFecha(resumenNormativo.getFecha());
+			
 		} catch (DataAccessException e) {
 			response.put("mensaje", "Error al actualizar el resumen normativo en la base de datos");
 			response.put("mensaje", e.getMessage().concat(": ").concat(e.getMostSpecificCause().getMessage()));
@@ -192,11 +191,11 @@ public class ResumenNormativoRestController {
 		return new ResponseEntity<Resource>(recurso, cabecera, HttpStatus.OK);
 	}
 	
-	@GetMapping("/resumenNormativo/filtrar-anio/{term}")
-	@ResponseStatus(HttpStatus.OK)
-	public List<ResumenNormativo> filtrarNumero(@PathVariable String term){
-		return resumenNormativoService.findResumenNormativoByAnio(term);
-	}
+//	@GetMapping("/resumenNormativo/filtrar-anio/{term}")
+//	@ResponseStatus(HttpStatus.OK)
+//	public List<ResumenNormativo> filtrarNumero(@PathVariable String term){
+//		return resumenNormativoService.findResumenNormativoByAnio(term);
+//	}
 
 
 }

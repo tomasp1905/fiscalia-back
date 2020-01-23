@@ -38,7 +38,7 @@ public class LeyProvincial implements Serializable {
 	private Date publicacionBO;
 	
 	
-	private String foto;
+	private String archivo;
 	
 	
 	@ManyToMany(cascade = {CascadeType.ALL})
@@ -48,13 +48,13 @@ public class LeyProvincial implements Serializable {
 		inverseJoinColumns = @JoinColumn(name = "decretosReglamentario_id", referencedColumnName = "id"))
 	private List<DecretoReglamentario> decretoReglamentario;
 	
-	public String getFoto() {
-		return foto;
+	public String getArchivo() {
+		return archivo;
 	}
 
 
-	public void setFoto(String foto) {
-		this.foto = foto;
+	public void setArchivo(String archivo) {
+		this.archivo = archivo;
 	}
 
 	public long getId() {

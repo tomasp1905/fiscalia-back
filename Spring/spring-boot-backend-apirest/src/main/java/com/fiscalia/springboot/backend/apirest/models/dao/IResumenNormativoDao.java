@@ -10,8 +10,8 @@ import com.fiscalia.springboot.backend.apirest.models.entity.ResumenNormativo;
 
 public interface IResumenNormativoDao  extends JpaRepository<ResumenNormativo, Long> {
 	
-	@Query("select p from ResumenNormativo p where p.anio like ?1")
-	public List<ResumenNormativo> findByAnio(String term);
+//	@Query("select p from ResumenNormativo p where p.anio like ?1")
+//	public List<ResumenNormativo> findByAnio(String term);
 	
 
 }

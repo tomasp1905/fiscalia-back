@@ -206,6 +206,13 @@ public class DecretoRestController {
 	public List<Decreto> filtrarNumero(@PathVariable String term){
 		return decretoService.findDecretoByNumero(term);
 	}
+	
+	@GetMapping("/decretos/filtrar-anio/{term}")
+	@ResponseStatus(HttpStatus.OK)
+	public List<Decreto> filtrarAnio(@PathVariable String term){
+		return decretoService.findDecretoByAnio(term);
+	}
+	
 
 
 }

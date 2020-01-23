@@ -36,6 +36,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
+import com.fiscalia.springboot.backend.apirest.models.entity.Decreto;
 import com.fiscalia.springboot.backend.apirest.models.entity.DecretoLey;
 import com.fiscalia.springboot.backend.apirest.models.service.IDecretoLeyService;
 
@@ -54,7 +55,7 @@ public class DecretoLeyRestController {
 	
 	@GetMapping("/decretosley/page/{page}") // mapeo a la URL
 	public Page<DecretoLey> index(@PathVariable Integer page) {
-		Pageable pageable = PageRequest.of(page,4);
+		Pageable pageable = PageRequest.of(page,8);
 		return decretoService.findAll(pageable);
 	}
 
@@ -205,6 +206,12 @@ public class DecretoLeyRestController {
 	@ResponseStatus(HttpStatus.OK)
 	public List<DecretoLey> filtrarNumero(@PathVariable String term){
 		return decretoService.findDecretoByNumero(term);
+	}
+	
+	@GetMapping("/decretosley/filtrar-anio/{term}")
+	@ResponseStatus(HttpStatus.OK)
+	public List<DecretoLey> filtrarAnio(@PathVariable String term){
+		return decretoService.findDecretoByAnio(term);
 	}
 
 

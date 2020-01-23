@@ -45,10 +45,10 @@ public class ResumenNormativoServiceImpl implements IResumenNormativoService {
 	}
 
 
-	@Override
-	public List<ResumenNormativo> findResumenNormativoByAnio(String term) {
-		return (List<ResumenNormativo>)  resumenNormativoDao.findByAnio(term);
-	}
+//	@Override
+//	public List<ResumenNormativo> findResumenNormativoByAnio(String term) {
+//		return (List<ResumenNormativo>)  resumenNormativoDao.findByAnio(term);
+//	}
 
 
 	@Override

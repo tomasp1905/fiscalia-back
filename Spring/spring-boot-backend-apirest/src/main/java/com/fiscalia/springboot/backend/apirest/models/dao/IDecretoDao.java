@@ -23,6 +23,8 @@ public interface IDecretoDao  extends JpaRepository<Decreto, Long> {
 	@Query("select p from Decreto p where p.numero like ?1")
 	public List<Decreto> findByNumero(String term);
 	
+	@Query("select p from Decreto p where p.anio like ?1")
+	public List<Decreto> findByAnio(String term);
 
 	
 }

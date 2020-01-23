@@ -1,4 +1,4 @@
-package com.fiscalia.springboot.backend.apirest.models.service;
+ package com.fiscalia.springboot.backend.apirest.models.service;
 
 import java.util.List;
 
@@ -22,6 +22,8 @@ public interface IDecretoLeyService {
 	public List<DecretoLey> findDecretoByTitulo(String term);
 	
 	public List<DecretoLey> findDecretoByNumero(String term);
+	
+	public List<DecretoLey> findDecretoByAnio(String term);
 
 	
 	

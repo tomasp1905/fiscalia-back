@@ -127,7 +127,7 @@ public class LeyProvincialRestController {
 		Map<String, Object> response = new HashMap<>();
 		try {
 			LeyProvincial leyprovincial = leyProvincialService.findById(id);
-			String nombreLeyAnterior = leyprovincial.getFoto();
+			String nombreLeyAnterior = leyprovincial.getArchivo();
 
 			leyProvincialService.delete(id);
 		} catch (DataAccessException e) {
@@ -158,16 +158,16 @@ public class LeyProvincialRestController {
 				return new ResponseEntity<Map<String, Object>>(response, HttpStatus.INTERNAL_SERVER_ERROR);
 			}
 
-			String nombreFotoAnterior = leyprovincial.getFoto();
-			if (nombreFotoAnterior != null && nombreFotoAnterior.length() > 0) {
-				Path rutaFotoAnterior = Paths.get("uploads").resolve(nombreFotoAnterior).toAbsolutePath();
-				File archivoFotoAnterior = rutaFotoAnterior.toFile();
-				if (archivoFotoAnterior.exists() && archivoFotoAnterior.canRead()) {
-					archivoFotoAnterior.delete();
+			String nombreArchivoAnterior = leyprovincial.getArchivo();
+			if (nombreArchivoAnterior != null && nombreArchivoAnterior.length() > 0) {
+				Path rutaArchivoAnterior = Paths.get("uploads").resolve(nombreArchivoAnterior).toAbsolutePath();
+				File archivoAnterior = rutaArchivoAnterior.toFile();
+				if (archivoAnterior.exists() && archivoAnterior.canRead()) {
+					archivoAnterior.delete();
 				}
 			}
 
-			leyprovincial.setFoto(nombreArchivo);
+			leyprovincial.setArchivo(nombreArchivo);
 			leyProvincialService.save(leyprovincial);
 			response.put("leyprovincial", leyprovincial);
 			response.put("mensaje", "Has subido correctamente el archivo: " + nombreArchivo2);
@@ -175,10 +175,10 @@ public class LeyProvincialRestController {
 		return new ResponseEntity<Map<String, Object>>(response, HttpStatus.CREATED);
 	}
 	
-	@GetMapping("/uploads/img/{nombreFoto:.+}")
-	public ResponseEntity<Resource> verFoto(@PathVariable String nombreFoto) {
+	@GetMapping("/uploads/img/{nombreArchivo:.+}")
+	public ResponseEntity<Resource> verArchivo(@PathVariable String nombreArchivo) {
 
-		Path rutaArchivo = Paths.get("uploads").resolve(nombreFoto).toAbsolutePath();
+		Path rutaArchivo = Paths.get("uploads").resolve(nombreArchivo).toAbsolutePath();
 		Resource recurso = null;
 
 		try {
@@ -188,7 +188,7 @@ public class LeyProvincialRestController {
 		}
 
 		if (!recurso.exists() && !recurso.isReadable()) {
-			throw new RuntimeException("Error no se pudo cargar el archivo: " + nombreFoto);
+			throw new RuntimeException("Error no se pudo cargar el archivo: " + nombreArchivo);
 		}
 		HttpHeaders cabecera = new HttpHeaders();
 		cabecera.add(HttpHeaders.CONTENT_DISPOSITION, "attachment; filename=\"" + recurso.getFilename() + "\"");

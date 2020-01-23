@@ -22,6 +22,8 @@ public interface IDecreto {
 	public List<Decreto> findDecretoByTitulo(String term);
 	
 	public List<Decreto> findDecretoByNumero(String term);
+	
+	public List<Decreto> findDecretoByAnio(String term);
 
 	
 	
