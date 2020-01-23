@@ -452,3 +452,42 @@ Caused by: sun.security.provider.certpath.SunCertPathBuilderException: unable to
 	at java.base/java.security.cert.CertPathBuilder.build(CertPathBuilder.java:297)
 	at java.base/sun.security.validator.PKIXValidator.doBuild(PKIXValidator.java:379)
 	... 28 more
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 08:54:34.913
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.zZfoUeNo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 08:54:34.913
+!MESSAGE subscribing to classpath changes: sts4.classpath.zZfoUeNo
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 08:54:34.913
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 08:54:34.918
+!MESSAGE subsribers = [sts4.classpath.zZfoUeNo]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 08:54:34.918
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 08:54:34.918
+!MESSAGE project spring-boot-backend-apirest ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 08:54:34.918
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 08:54:34.918
+!MESSAGE Preparing classpath changed notification spring-boot-backend-apirest
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 08:54:34.918
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.zZfoUeNo => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 08:54:34.923
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 08:54:35.039
+!MESSAGE classpath=103 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 08:54:35.040
+!MESSAGE executing callback sts4.classpath.zZfoUeNo spring-boot-backend-apirest false 103
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2020-01-23 08:54:35.388
+!MESSAGE executing callback sts4.classpath.zZfoUeNo SUCCESS [done]
