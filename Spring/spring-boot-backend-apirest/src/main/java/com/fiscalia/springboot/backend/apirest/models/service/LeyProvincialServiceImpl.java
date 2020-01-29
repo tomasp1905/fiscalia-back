@@ -69,6 +69,8 @@ public class LeyProvincialServiceImpl implements ILeyProvincialService {
 		return leyProvincialDao.findAll(pageable);
 	}
 	
+	/*
+	
 	private void asignarDecretoEnLey (LeyProvincial leyprovincial, List<DecretoReglamentario> listaDecretos) {
 		if(!listaDecretos.isEmpty()) {
 			List<DecretoReglamentario> listaDecretosDeLey = new ArrayList<>();
@@ -80,6 +82,6 @@ public class LeyProvincialServiceImpl implements ILeyProvincialService {
 			}
 			leyprovincial.setDecretoReglamentario(listaDecretosDeLey);
 		}
-	}
+	}  */
 
 }

@@ -20,6 +20,7 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.annotation.Secured;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -36,6 +37,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
 import com.fiscalia.springboot.backend.apirest.models.entity.Decreto;
+import com.fiscalia.springboot.backend.apirest.models.entity.LeyProvincial;
 import com.fiscalia.springboot.backend.apirest.models.service.IDecreto;
 
 @CrossOrigin(origins = { "http://localhost:4200" }) // conexion con Angular
@@ -175,7 +177,43 @@ public class DecretoRestController {
 		return new ResponseEntity<Map<String, Object>>(response, HttpStatus.CREATED);
 	}
 	
-	@GetMapping("/uploads/archivo/{nombreArchivo:.+}")
+	@PostMapping("/decretos/uploadActualizado")
+	public ResponseEntity<?> uploadActualizado(@RequestParam("archivo") MultipartFile archivo, @RequestParam("id") Long id) {
+		Map<String, Object> response = new HashMap<>();
+		Decreto decreto = decretoService.findById(id);
+
+		if (!archivo.isEmpty()) {
+			String nombreArchivo = UUID.randomUUID().toString() + "_" +archivo.getOriginalFilename().replace("", "");
+			//String nombreArchivo2 = archivo.getOriginalFilename().replace("", "");
+			
+			Path rutaArchivo = Paths.get("uploadsActualizado").resolve(nombreArchivo).toAbsolutePath();
+
+			try {
+				Files.copy(archivo.getInputStream(), rutaArchivo);
+			} catch (IOException e) {
+				response.put("mensaje", "Error al subir el archivo" + nombreArchivo);
+				response.put("error", e.getMessage().concat(": ").concat(e.getCause().getMessage()));
+				return new ResponseEntity<Map<String, Object>>(response, HttpStatus.INTERNAL_SERVER_ERROR);
+			}
+
+			String nombreArchivoAnterior = decreto.getArchivoActualizado();
+			if (nombreArchivoAnterior != null && nombreArchivoAnterior.length() > 0) {
+				Path rutaArchivoAnterior = Paths.get("uploadsActualizado").resolve(nombreArchivoAnterior).toAbsolutePath();
+				File archivoAnterior = rutaArchivoAnterior.toFile();
+				if (archivoAnterior.exists() && archivoAnterior.canRead()) {
+					archivoAnterior.delete();
+				}
+			} 
+
+			decreto.setArchivoActualizado(nombreArchivo);
+			decretoService.save(decreto);
+			response.put("decreto", decreto);
+			response.put("mensaje", "Has subido correctamente el archivo: " + nombreArchivo);
+		}
+		return new ResponseEntity<Map<String, Object>>(response, HttpStatus.CREATED);
+	}
+	
+	@GetMapping("/uploadsDecreto/archivo/{nombreArchivo:.+}")
 	public ResponseEntity<Resource> verFoto(@PathVariable String nombreArchivo) {
 
 		Path rutaArchivo = Paths.get("uploads").resolve(nombreArchivo).toAbsolutePath();
@@ -191,7 +229,31 @@ public class DecretoRestController {
 			throw new RuntimeException("Error no se pudo cargar el archivo: " + nombreArchivo);
 		}
 		HttpHeaders cabecera = new HttpHeaders();
-		cabecera.add(HttpHeaders.CONTENT_DISPOSITION, "attachment; filename=\"" + recurso.getFilename() + "\"");
+		cabecera.setContentType(MediaType.parseMediaType("application/pdf"));
+		cabecera.add(HttpHeaders.CONTENT_DISPOSITION, "inline; filename=\"" + recurso.getFilename() + "\"");
+		cabecera.setCacheControl("must-revalidate, post-check=0, pre-check=0");
+		return new ResponseEntity<Resource>(recurso, cabecera, HttpStatus.OK);
+	}
+	
+	@GetMapping("/uploadsActualizadoDecreto/archivo/{nombreArchivo:.+}")
+	public ResponseEntity<Resource> verArchivoActualizado(@PathVariable String nombreArchivo) {
+
+		Path rutaArchivo = Paths.get("uploadsActualizado").resolve(nombreArchivo).toAbsolutePath();
+		Resource recurso = null;
+
+		try {
+			recurso = new UrlResource(rutaArchivo.toUri());
+		} catch (MalformedURLException e) {
+			e.printStackTrace();
+		}
+
+		if (!recurso.exists() && !recurso.isReadable()) {
+			throw new RuntimeException("Error no se pudo cargar el archivo: " + nombreArchivo);
+		}
+		HttpHeaders cabecera = new HttpHeaders();
+		cabecera.setContentType(MediaType.parseMediaType("application/pdf"));
+		cabecera.add(HttpHeaders.CONTENT_DISPOSITION, "inline; filename=\"" + recurso.getFilename() + "\"");
+		cabecera.setCacheControl("must-revalidate, post-check=0, pre-check=0");
 		return new ResponseEntity<Resource>(recurso, cabecera, HttpStatus.OK);
 	}
 	

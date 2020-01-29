@@ -1,4 +1,4 @@
-package com.fiscalia.springboot.backend.apirest.auth;
+ package com.fiscalia.springboot.backend.apirest.auth;
 
 public class JwtConfig {
 	public static final  String LLAVE_FINAL = "alguna.clave.secreta.12345687";
@@ -17,4 +17,4 @@ public class JwtConfig {
 			"MFwwDQYJKoZIhvcNAQEBBQADSwAwSAJBAM7/cDvoRHlCpWLpXcl+kWpDHEOe15Rt\r\n" + 
 			"uXeoOMPjsQ/H6qOiBh/B0/gYs3c8HK+J8yCEytbhipShbAHp+9FDUh8CAwEAAQ==\r\n" + 
 			"-----END PUBLIC KEY-----";
-}
+} 

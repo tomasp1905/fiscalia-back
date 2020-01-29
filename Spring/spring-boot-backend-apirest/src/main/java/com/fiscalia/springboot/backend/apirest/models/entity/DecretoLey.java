@@ -13,30 +13,38 @@ import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
 @Entity
-@Table(name="decretosley")
+@Table(name="T_DECRETOS_LEY")
+//@Table(name="decretosley")
 public class DecretoLey implements Serializable {
 
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@Column(name="ID_DECRETO_LEY")
 	private long id;
 	
-	@Column(nullable=false)
+	//@Column(nullable=false)
+	@Column(name="NUMERO_DECRETO_LEY",nullable=false)
 	private String numero;
 
-	@Column(nullable=false)
+	//@Column(nullable=false)
+	@Column(name="TITULO_DECRETO_LEY",nullable=false)
 	private String titulo;
 	
-	@Column(nullable=false)
+	//@Column(nullable=false)
+	@Column(name="AÑO_DECRETO_LEY",nullable=false)
 	private String anio;
 
-	@Column(name="fecha_emision",nullable=false) //Se usa @Column cuando se quiere cambiar el nombre a la columna
+	//@Column(name="fecha_emision",nullable=false) 
 	@Temporal(TemporalType.DATE) //para las fechas
+	@Column(name="FECHA_EMISION_DECRETO_LEY",nullable=false)
 	private Date fechaEmision;
 	
-	@Column(name="publicacion_BO",nullable=false)
+	//@Column(name="publicacion_BO",nullable=false)
 	@Temporal(TemporalType.DATE)
+	@Column(name="PUBLICACION_BO_DECRETO_LEY",nullable=false)
 	private Date publicacionBO;
 
+	@Column(name="ARCHIVO_DECRETO_LEY")
 	private String archivo;
 	
 	public String getArchivo() {

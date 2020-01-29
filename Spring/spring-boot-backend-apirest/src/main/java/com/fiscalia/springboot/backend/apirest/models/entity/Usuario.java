@@ -1,4 +1,4 @@
-package com.fiscalia.springboot.backend.apirest.models.entity;
+ package com.fiscalia.springboot.backend.apirest.models.entity;
 
 import java.io.Serializable;
 import java.util.List;
@@ -107,9 +107,7 @@ public class Usuario implements Serializable {
 		this.email = email;
 	}
 
-	/**
-	 * 
-	 */
+	
 	private static final long serialVersionUID = 1L;
-}
+} 
 

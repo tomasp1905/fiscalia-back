@@ -1,4 +1,4 @@
-package com.fiscalia.springboot.backend.apirest.auth;
+ package com.fiscalia.springboot.backend.apirest.auth;
 
 import java.util.Arrays;
 
@@ -74,3 +74,4 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
 	
 	 
 }
+ 

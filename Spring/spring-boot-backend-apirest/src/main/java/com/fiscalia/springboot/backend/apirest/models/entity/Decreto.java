@@ -14,31 +14,40 @@ import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
 @Entity
-@Table(name="decretos")
+@Table(name="T_DECRETOS")
+//@Table(name="decretos")
 public class Decreto implements Serializable {
 
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@Column(name="ID_DECRETO")
 	private long id;
 	
-	@Column(nullable=false)
+	//@Column(nullable=false)
+	@Column(name="NUMERO_DECRETO",nullable=false)
 	private String numero;
 
-	@Column(nullable=false)
+	//@Column(nullable=false)
+	@Column(name="TITULO_DECRETO",nullable=false)
 	private String titulo;
 	
-	@Column(nullable=false)
+	//@Column(nullable=false)
+	@Column(name="AÑO_DECRETO",nullable=false)
 	private String anio;
 
-	@Column(name="fecha_emision",nullable=false) //Se usa @Column cuando se quiere cambiar el nombre a la columna
+	@Column(name="FECHA_EMISION_DECRETO",nullable=false) //Se usa @Column cuando se quiere cambiar el nombre a la columna
 	@Temporal(TemporalType.DATE) //para las fechas
 	private Date fechaEmision;
 	
-	@Column(name="publicacion_BO",nullable=false)
+	@Column(name="PUBLICACION_BO_DECRETO",nullable=false)
 	@Temporal(TemporalType.DATE)
 	private Date publicacionBO;
 
+	@Column(name="ARCHIVO_DECRETO")
 	private String archivo;
+	
+	@Column(name="ARCHIVO_ACTUALIZADO_DECRETO")
+	private String archivoActualizado;
 	
 	public String getArchivo() {
 		return archivo;
@@ -105,6 +114,14 @@ public class Decreto implements Serializable {
 
 	public void setPublicacionBO(Date publicacionBO) {
 		this.publicacionBO = publicacionBO;
+	}
+
+
+	public String getArchivoActualizado() {
+		return archivoActualizado;
+	}
+	public void setArchivoActualizado(String archivoActualizado) {
+		this.archivoActualizado = archivoActualizado;
 	}
 
 

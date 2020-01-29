@@ -1,4 +1,4 @@
-	package com.fiscalia.springboot.backend.apirest.models.dao;
+package com.fiscalia.springboot.backend.apirest.models.dao;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -18,3 +18,4 @@ public interface IUsuarioDao extends CrudRepository<Usuario, Long> {
 	
 
 }
+ 

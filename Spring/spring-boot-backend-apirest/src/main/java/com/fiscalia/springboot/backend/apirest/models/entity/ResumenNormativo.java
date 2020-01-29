@@ -14,18 +14,21 @@ import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
 @Entity
-@Table(name="resumenes")
+@Table(name="T_RESUMENES")
+//@Table(name="resumenes")
 public class ResumenNormativo implements Serializable {
 
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@Column(name="ID_RESUMEN_NORMATIVO")
 	private long id;
 	
-	@Column(nullable=false)
+	//@Column(nullable=false)
 	@Temporal(TemporalType.DATE)
+	@Column(name="FECHA_RESUMEN_NORMATIVO",nullable=false)
 	private Date fecha;
 
-
+	@Column(name="ARCHIVO_RESUMEN_NORMATIVO")
 	private String archivo;
 	
 	

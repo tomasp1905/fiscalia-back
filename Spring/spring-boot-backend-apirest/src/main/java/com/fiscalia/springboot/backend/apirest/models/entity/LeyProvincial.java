@@ -19,34 +19,46 @@ import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 
 @Entity
-@Table(name="leyes")
+@Table(name="T_LEYES")
+//@Table(name="leyes")
 public class LeyProvincial implements Serializable {
 
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
+	@Column(name="ID_LEY")
 	private long id;
-	@Column(nullable=false)
+	
+	//@Column(nullable=false)
+	@Column(name="NUMERO_LEY",nullable=false)
 	private String numero;
-	@Column(nullable=false)
+	
+	//@Column(nullable=false)
+	@Column(name="TITULO_LEY",nullable=false)
 	private String titulo;
-	@Column(name="fecha_sancion",nullable=false) //Se usa @Column cuando se quiere cambiar el nombre a la columna
+	
+	//@Column(name="fecha_sancion",nullable=false) 
 	@Temporal(TemporalType.DATE) //para las fechas
+	@Column(name="FECHA_SANCION_LEY",nullable=false)
 	private Date fechaSancion;
 	
-	@Column(name="publicacion_BO",nullable=false)
+	//@Column(name="publicacion_BO",nullable=false)
 	@Temporal(TemporalType.DATE)
+	@Column(name="PUBLICACION_BO_LEY",nullable=false)
 	private Date publicacionBO;
 	
-	
+	@Column(name="ARCHIVO_LEY")
 	private String archivo;
 	
+	@Column(name="ARCHIVO_ACTUALIZADO_LEY")
+	private String archivoActualizado;
 	
-	@ManyToMany(cascade = {CascadeType.ALL})
+	
+/*	@ManyToMany(cascade = {CascadeType.ALL})
 	@JoinTable(
 		name = "ley_decretoReg",
 		joinColumns = @JoinColumn(name = "leyes_id", referencedColumnName = "id"),
 		inverseJoinColumns = @JoinColumn(name = "decretosReglamentario_id", referencedColumnName = "id"))
-	private List<DecretoReglamentario> decretoReglamentario;
+	private List<DecretoReglamentario> decretoReglamentario;  */
 	
 	public String getArchivo() {
 		return archivo;
@@ -102,6 +114,7 @@ public class LeyProvincial implements Serializable {
 	 */
 	private static final long serialVersionUID = 1L;
 
+	/*
 	public List<DecretoReglamentario> getDecretoReglamentario() {
 		return decretoReglamentario;
 	}
@@ -109,6 +122,16 @@ public class LeyProvincial implements Serializable {
 
 	public void setDecretoReglamentario(List<DecretoReglamentario> decretoReglamentario) {
 		this.decretoReglamentario = decretoReglamentario;
+	} */
+
+
+	public String getArchivoActualizado() {
+		return archivoActualizado;
+	}
+
+
+	public void setArchivoActualizado(String archivoActualizado) {
+		this.archivoActualizado = archivoActualizado;
 	}
 	
 
