@@ -5,6 +5,7 @@ import java.util.List;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
+import com.fiscalia.springboot.backend.apirest.models.entity.DecretoReglamentario;
 import com.fiscalia.springboot.backend.apirest.models.entity.LeyProvincial;
 
 public interface ILeyProvincialService {
@@ -22,7 +23,13 @@ public interface ILeyProvincialService {
 	public List<LeyProvincial> findLeyProvincialByTitulo(String term);
 	
 	public List<LeyProvincial> findLeyProvincialByNumero(String term);
-
+	
+	public DecretoReglamentario findDecretoReglamentarioById(Long id);
+	
+	public DecretoReglamentario saveDecretoReglamentario (DecretoReglamentario decretoReglamentario);
+	
+	public void deleteDecretoReglamentarioById(Long id);
+	
 	
 	
 }

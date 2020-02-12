@@ -22,6 +22,8 @@ public class ResourceServerConfig extends ResourceServerConfigurerAdapter {
 		@Override
 	public void configure(HttpSecurity http) throws Exception {
 		http.authorizeRequests().antMatchers(HttpMethod.GET,"/api/leyesProvinciales","api/leyesProvinciales/page/**","/api/uploads/img/**","images/**").permitAll()//En esta ruta damos permiso a todo
+		.antMatchers("/api/leyesProvinciales/{id}").permitAll() 
+		.antMatchers("/api/decretosReglamentarios/**").permitAll() 
 		.antMatchers(HttpMethod.GET,"api/leyesProvinciales/{id}").permitAll()
 		.antMatchers(HttpMethod.POST,"api/leyesProvinciales/upload").permitAll()
 		.antMatchers(HttpMethod.POST,"api/leyesProvinciales").permitAll()

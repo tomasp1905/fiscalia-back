@@ -205,12 +205,13 @@ public class LeyProvincialRestController {
 					archivoAnterior.delete();
 				}
 			} 
-
+              
 			leyprovincial.setArchivoActualizado(nombreArchivo);
 			leyProvincialService.save(leyprovincial);
 			response.put("leyprovincial", leyprovincial);
 			response.put("mensaje", "Has subido correctamente el archivo: " + nombreArchivo);
 		}
+		
 		return new ResponseEntity<Map<String, Object>>(response, HttpStatus.CREATED);
 	}
 	
@@ -297,6 +298,8 @@ public class LeyProvincialRestController {
 			throw new RuntimeException("Error no se pudo cargar el archivo: " + nombreArchivo);
 		}
 		HttpHeaders cabecera = new HttpHeaders();
+		// Esta linea hace que se descargue el archivo en Word
+		//cabecera.setContentType(MediaType.parseMediaType("application/msword"));
 		cabecera.setContentType(MediaType.parseMediaType("application/pdf"));
 		cabecera.add(HttpHeaders.CONTENT_DISPOSITION, "inline; filename=\"" + recurso.getFilename() + "\"");
 		cabecera.setCacheControl("must-revalidate, post-check=0, pre-check=0");
@@ -314,6 +317,133 @@ public class LeyProvincialRestController {
 	public List<LeyProvincial> filtrarNumero(@PathVariable String term){
 		return leyProvincialService.findLeyProvincialByNumero(term);
 	}
+	
+	
+	//------------------- DECRETOS REGLAMENTARIOS -----------------------------
+	
+	@PostMapping("/leyesProvinciales/uploadDecretoRelgamentario")
+	public ResponseEntity<?> uploadDecretoReglamentario(@RequestParam("archivo") MultipartFile archivo, @RequestParam("id") Long id) {
+		Map<String, Object> response = new HashMap<>();
+		LeyProvincial leyprovincial = leyProvincialService.findById(id);
+
+		if (!archivo.isEmpty()) {
+			String nombreArchivo = UUID.randomUUID().toString() + "_" +archivo.getOriginalFilename().replace("", "");
+			//String nombreArchivo2 = archivo.getOriginalFilename().replace("", "");
+			
+			Path rutaArchivo = Paths.get("uploadsDecretoReglamentario").resolve(nombreArchivo).toAbsolutePath();
+
+			try {
+				Files.copy(archivo.getInputStream(), rutaArchivo);
+			} catch (IOException e) {
+				response.put("mensaje", "Error al subir el archivo" + nombreArchivo);
+				response.put("error", e.getMessage().concat(": ").concat(e.getCause().getMessage()));
+				return new ResponseEntity<Map<String, Object>>(response, HttpStatus.INTERNAL_SERVER_ERROR);
+			}
+
+			String nombreArchivoAnterior = leyprovincial.getArchivoDecretoReglamentario();
+			if (nombreArchivoAnterior != null && nombreArchivoAnterior.length() > 0) {
+				Path rutaArchivoAnterior = Paths.get("uploadsDecretoReglamentario").resolve(nombreArchivoAnterior).toAbsolutePath();
+				File archivoAnterior = rutaArchivoAnterior.toFile();
+				if (archivoAnterior.exists() && archivoAnterior.canRead()) {
+					archivoAnterior.delete();
+				}
+			} 
+              
+			leyprovincial.setArchivoDecretoReglamentario(nombreArchivo);
+			leyProvincialService.save(leyprovincial);
+			response.put("leyprovincial", leyprovincial);
+			response.put("mensaje", "Has subido correctamente el archivo: " + nombreArchivo);
+		}
+		
+		return new ResponseEntity<Map<String, Object>>(response, HttpStatus.CREATED);
+	}
+	
+	@GetMapping("/uploadDecretoRelgamentario/archivo/{nombreArchivo:.+}")
+	public ResponseEntity<Resource> verArchivoDecretoReglamentario(@PathVariable String nombreArchivo) {
+
+		Path rutaArchivo = Paths.get("uploadsDecretoReglamentario").resolve(nombreArchivo).toAbsolutePath();
+		Resource recurso = null;
+
+		try {
+			recurso = new UrlResource(rutaArchivo.toUri());
+		} catch (MalformedURLException e) {
+			e.printStackTrace();
+		}
+
+		if (!recurso.exists() && !recurso.isReadable()) {
+			throw new RuntimeException("Error no se pudo cargar el archivo: " + nombreArchivo);
+		}
+		HttpHeaders cabecera = new HttpHeaders();
+		// Esta linea hace que se descargue el archivo en Word
+		//cabecera.setContentType(MediaType.parseMediaType("application/msword"));
+		cabecera.setContentType(MediaType.parseMediaType("application/pdf"));
+		cabecera.add(HttpHeaders.CONTENT_DISPOSITION, "inline; filename=\"" + recurso.getFilename() + "\"");
+		cabecera.setCacheControl("must-revalidate, post-check=0, pre-check=0");
+		return new ResponseEntity<Resource>(recurso, cabecera, HttpStatus.OK);
+	}
+	
+	@PostMapping("/leyesProvinciales/uploadDecretoRelgamentario2")
+	public ResponseEntity<?> uploadDecretoReglamentario2(@RequestParam("archivo") MultipartFile archivo, @RequestParam("id") Long id) {
+		Map<String, Object> response = new HashMap<>();
+		LeyProvincial leyprovincial = leyProvincialService.findById(id);
+
+		if (!archivo.isEmpty()) {
+			String nombreArchivo = UUID.randomUUID().toString() + "_" +archivo.getOriginalFilename().replace("", "");
+			//String nombreArchivo2 = archivo.getOriginalFilename().replace("", "");
+			
+			Path rutaArchivo = Paths.get("uploadsDecretoReglamentario2").resolve(nombreArchivo).toAbsolutePath();
+
+			try {
+				Files.copy(archivo.getInputStream(), rutaArchivo);
+			} catch (IOException e) {
+				response.put("mensaje", "Error al subir el archivo" + nombreArchivo);
+				response.put("error", e.getMessage().concat(": ").concat(e.getCause().getMessage()));
+				return new ResponseEntity<Map<String, Object>>(response, HttpStatus.INTERNAL_SERVER_ERROR);
+			}
+
+			String nombreArchivoAnterior = leyprovincial.getArchivoDecretoReglamentario2();
+			if (nombreArchivoAnterior != null && nombreArchivoAnterior.length() > 0) {
+				Path rutaArchivoAnterior = Paths.get("uploadsDecretoReglamentario2").resolve(nombreArchivoAnterior).toAbsolutePath();
+				File archivoAnterior = rutaArchivoAnterior.toFile();
+				if (archivoAnterior.exists() && archivoAnterior.canRead()) {
+					archivoAnterior.delete();
+				}
+			} 
+              
+			leyprovincial.setArchivoDecretoReglamentario2(nombreArchivo);
+			leyProvincialService.save(leyprovincial);
+			response.put("leyprovincial", leyprovincial);
+			response.put("mensaje", "Has subido correctamente el archivo: " + nombreArchivo);
+		}
+		
+		return new ResponseEntity<Map<String, Object>>(response, HttpStatus.CREATED);
+	}
+	
+	@GetMapping("/uploadDecretoRelgamentario2/archivo/{nombreArchivo:.+}")
+	public ResponseEntity<Resource> verArchivoDecretoReglamentario2(@PathVariable String nombreArchivo) {
+
+		Path rutaArchivo = Paths.get("uploadsDecretoReglamentario2").resolve(nombreArchivo).toAbsolutePath();
+		Resource recurso = null;
+
+		try {
+			recurso = new UrlResource(rutaArchivo.toUri());
+		} catch (MalformedURLException e) {
+			e.printStackTrace();
+		}
+
+		if (!recurso.exists() && !recurso.isReadable()) {
+			throw new RuntimeException("Error no se pudo cargar el archivo: " + nombreArchivo);
+		}
+		HttpHeaders cabecera = new HttpHeaders();
+		// Esta linea hace que se descargue el archivo en Word
+		//cabecera.setContentType(MediaType.parseMediaType("application/msword"));
+		cabecera.setContentType(MediaType.parseMediaType("application/pdf"));
+		cabecera.add(HttpHeaders.CONTENT_DISPOSITION, "inline; filename=\"" + recurso.getFilename() + "\"");
+		cabecera.setCacheControl("must-revalidate, post-check=0, pre-check=0");
+		return new ResponseEntity<Resource>(recurso, cabecera, HttpStatus.OK);
+	}
+	
+	
 
 
 }

@@ -21,8 +21,8 @@ public class LeyProvincialServiceImpl implements ILeyProvincialService {
 	@Autowired 
 	private ILeyProvincialDao  leyProvincialDao;
 	
-	@Autowired // llamo al servicio
-	private IDecretoReglamentarioService decretoReglamentarioService;
+	@Autowired 
+	private IDecretoReglamentarioDao decretoReglamentarioDao;
 	
 	@Transactional(readOnly = true) //porque es una consulta de solo lectura, es opcional pero es recomendable ponerlo.
 	public List<LeyProvincial> findAll() {
@@ -68,20 +68,32 @@ public class LeyProvincialServiceImpl implements ILeyProvincialService {
 	public Page<LeyProvincial> findAll(Pageable pageable) {
 		return leyProvincialDao.findAll(pageable);
 	}
+
+
+	@Override
+	@Transactional(readOnly = true )
+	public DecretoReglamentario findDecretoReglamentarioById(Long id) {
+		return decretoReglamentarioDao.findById(id).orElse(null);
+	}
+
+
+	@Override
+	@Transactional
+	public DecretoReglamentario saveDecretoReglamentario(DecretoReglamentario decretoReglamentario) {
+		return decretoReglamentarioDao.save(decretoReglamentario);
+	}
+
+
+	@Override
+	@Transactional
+	public void deleteDecretoReglamentarioById(Long id) {
+		decretoReglamentarioDao.deleteById(id);
+	}
+
+
 	
-	/*
 	
-	private void asignarDecretoEnLey (LeyProvincial leyprovincial, List<DecretoReglamentario> listaDecretos) {
-		if(!listaDecretos.isEmpty()) {
-			List<DecretoReglamentario> listaDecretosDeLey = new ArrayList<>();
-			for (int i = 0; i < listaDecretos.size(); i++) {
-				List<DecretoReglamentario> decretoReglamentario = decretoReglamentarioService.findDecretoByNumero(listaDecretos.get(i).getNumero());
-			if(decretoReglamentario != null) {
-				listaDecretosDeLey.addAll(decretoReglamentario);
-			}	
-			}
-			leyprovincial.setDecretoReglamentario(listaDecretosDeLey);
-		}
-	}  */
+	
+	
 
 }

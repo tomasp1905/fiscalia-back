@@ -1,22 +1,30 @@
 package com.fiscalia.springboot.backend.apirest.models.entity;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
 import javax.persistence.Lob;
-import javax.persistence.ManyToMany;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
+
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+
+
+
+
 
 @Entity
 @Table(name="T_LEYES")
@@ -52,14 +60,25 @@ public class LeyProvincial implements Serializable {
 	@Column(name="ARCHIVO_ACTUALIZADO_LEY")
 	private String archivoActualizado;
 	
+	@Column(name="ARCHIVO_DECRETO_REGLAMENTARIO_LEY")
+    private String archivoDecretoReglamentario;
 	
-/*	@ManyToMany(cascade = {CascadeType.ALL})
-	@JoinTable(
-		name = "ley_decretoReg",
-		joinColumns = @JoinColumn(name = "leyes_id", referencedColumnName = "id"),
-		inverseJoinColumns = @JoinColumn(name = "decretosReglamentario_id", referencedColumnName = "id"))
-	private List<DecretoReglamentario> decretoReglamentario;  */
+	@Column(name="ARCHIVO_DECRETO_REGLAMENTARIO_2_LEY")
+	private String archivoDecretoReglamentario2;
 	
+    
+    /*
+	@JsonIgnoreProperties({"leyProvincial", "hibernateLazyInitializer","handler"})
+	@OneToMany(fetch=FetchType.LAZY, mappedBy = "leyProvincial", cascade = {CascadeType.ALL})
+	private List<DecretoReglamentario> listaDeDecretosReglamentarios; */
+	
+	
+   /*
+	public LeyProvincial() {
+		this.listaDeDecretosReglamentarios = new ArrayList<>();
+	} */
+
+ 
 	public String getArchivo() {
 		return archivo;
 	}
@@ -114,16 +133,7 @@ public class LeyProvincial implements Serializable {
 	 */
 	private static final long serialVersionUID = 1L;
 
-	/*
-	public List<DecretoReglamentario> getDecretoReglamentario() {
-		return decretoReglamentario;
-	}
-
-
-	public void setDecretoReglamentario(List<DecretoReglamentario> decretoReglamentario) {
-		this.decretoReglamentario = decretoReglamentario;
-	} */
-
+	
 
 	public String getArchivoActualizado() {
 		return archivoActualizado;
@@ -133,6 +143,41 @@ public class LeyProvincial implements Serializable {
 	public void setArchivoActualizado(String archivoActualizado) {
 		this.archivoActualizado = archivoActualizado;
 	}
+
+
+	/*
+	public List<DecretoReglamentario> getListaDeDecretosReglamentarios() {
+		return listaDeDecretosReglamentarios;
+	}
+
+
+	public void setListaDeDecretosReglamentarios(List<DecretoReglamentario> listaDeDecretosReglamentarios) {
+		this.listaDeDecretosReglamentarios = listaDeDecretosReglamentarios;
+	} */
+	
+
+	public String getArchivoDecretoReglamentario() {
+		return archivoDecretoReglamentario;
+	}
+
+
+	public void setArchivoDecretoReglamentario(String archivoDecretoReglamentario) {
+		this.archivoDecretoReglamentario = archivoDecretoReglamentario;
+	}
+
+
+	public String getArchivoDecretoReglamentario2() {
+		return archivoDecretoReglamentario2;
+	}
+
+
+	public void setArchivoDecretoReglamentario2(String archivoDecretoReglamentario2) {
+		this.archivoDecretoReglamentario2 = archivoDecretoReglamentario2;
+	}
+	
+	
+
+
 	
 
 }
