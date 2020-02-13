@@ -66,6 +66,18 @@ public class LeyProvincial implements Serializable {
 	@Column(name="ARCHIVO_DECRETO_REGLAMENTARIO_2_LEY")
 	private String archivoDecretoReglamentario2;
 	
+	@Column(name="ARCHIVO_DECRETO_REGLAMENTARIO_3_LEY")
+	private String archivoDecretoReglamentario3;
+	
+	@Column(name="ARCHIVO_DECRETO_REGLAMENTARIO_4_LEY")
+	private String archivoDecretoReglamentario4;
+	
+	@Column(name="ARCHIVO_DECRETO_REGLAMENTARIO_5_LEY")
+	private String archivoDecretoReglamentario5;
+	
+	@Column(name="ARCHIVO_DECRETO_REGLAMENTARIO_6_LEY")
+	private String archivoDecretoReglamentario6;
+	
     
     /*
 	@JsonIgnoreProperties({"leyProvincial", "hibernateLazyInitializer","handler"})
@@ -174,6 +186,48 @@ public class LeyProvincial implements Serializable {
 	public void setArchivoDecretoReglamentario2(String archivoDecretoReglamentario2) {
 		this.archivoDecretoReglamentario2 = archivoDecretoReglamentario2;
 	}
+
+
+	public String getArchivoDecretoReglamentario3() {
+		return archivoDecretoReglamentario3;
+	}
+
+
+	public void setArchivoDecretoReglamentario3(String archivoDecretoReglamentario3) {
+		this.archivoDecretoReglamentario3 = archivoDecretoReglamentario3;
+	}
+
+
+	public String getArchivoDecretoReglamentario4() {
+		return archivoDecretoReglamentario4;
+	}
+
+
+	public void setArchivoDecretoReglamentario4(String archivoDecretoReglamentario4) {
+		this.archivoDecretoReglamentario4 = archivoDecretoReglamentario4;
+	}
+
+
+	public String getArchivoDecretoReglamentario5() {
+		return archivoDecretoReglamentario5;
+	}
+
+
+	public void setArchivoDecretoReglamentario5(String archivoDecretoReglamentario5) {
+		this.archivoDecretoReglamentario5 = archivoDecretoReglamentario5;
+	}
+
+
+	public String getArchivoDecretoReglamentario6() {
+		return archivoDecretoReglamentario6;
+	}
+
+
+	public void setArchivoDecretoReglamentario6(String archivoDecretoReglamentario6) {
+		this.archivoDecretoReglamentario6 = archivoDecretoReglamentario6;
+	}
+	
+	
 	
 	
 
