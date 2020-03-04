@@ -1,10 +1,11 @@
 package com.fiscalia.springboot.backend.apirest;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.boot.builder.SpringApplicationBuilder;
+import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
+
+
 
 @SpringBootApplication
 public class SpringBootBackendApirestApplication {
@@ -12,19 +13,26 @@ public class SpringBootBackendApirestApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootBackendApirestApplication.class, args);
 	}
-}
-	
-	/*
+}  
 
-	public void run(String... args) throws Exception {
-		String password = "12345";
-		
-		for (int i = 0; i < 1; i++) {
-			String passwordBcrypt = passwordEncoder.encode(password);
-			System.out.println("Listo");
-			
+
+/*
+@SpringBootApplication
+public class SpringBootBackendApirestApplication extends SpringBootServletInitializer{
+	
+	@Override
+		protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
+			return builder.sources(SpringBootBackendApirestApplication.class);
 		}
-		
-	} */
+
+	public static void main(String[] args) {
+		SpringApplication.run(SpringBootBackendApirestApplication.class, args);
+	}
+} */
+
+
+
+ 
+
 
 

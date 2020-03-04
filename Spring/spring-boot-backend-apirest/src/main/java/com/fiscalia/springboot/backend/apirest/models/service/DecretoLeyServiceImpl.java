@@ -9,7 +9,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.fiscalia.springboot.backend.apirest.models.dao.IDecretoLeyDao;
-import com.fiscalia.springboot.backend.apirest.models.entity.Decreto;
 import com.fiscalia.springboot.backend.apirest.models.entity.DecretoLey;
 
 

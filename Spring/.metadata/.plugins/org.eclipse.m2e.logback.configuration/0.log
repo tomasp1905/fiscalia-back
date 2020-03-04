@@ -4272,3 +4272,635 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Duplicated 
 2020-02-12 10:51:26,585 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
 2020-02-13 08:56:51,354 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2020-02-13 08:56:56,803 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2020-02-13 10:44:16,781 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-13 10:44:16,985 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-13 10:44:17,016 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-13 10:44:17,035 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-13 10:44:17,035 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-13 10:44:56,220 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-13 10:44:56,224 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-13 10:44:56,230 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-13 10:44:56,232 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-13 10:44:56,232 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-13 10:45:08,247 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-13 10:45:08,250 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-13 10:45:08,255 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-13 10:45:08,259 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-13 10:45:08,259 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-13 10:45:18,073 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-13 10:45:18,076 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-13 10:45:18,082 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-13 10:45:18,084 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-13 10:45:18,085 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-13 10:46:08,412 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-13 10:46:08,414 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-13 10:46:08,419 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-13 10:46:08,421 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-13 10:46:08,422 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-13 10:46:33,071 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-13 10:46:33,073 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-13 10:46:33,079 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-13 10:46:33,081 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-13 10:46:33,082 [Worker-26: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-13 10:46:44,648 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-13 10:46:44,649 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-13 10:46:44,656 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-13 10:46:44,658 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-13 10:46:44,658 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-14 09:35:15,179 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-02-14 09:35:21,600 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2020-02-14 09:43:28,906 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-14 09:43:28,984 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-14 09:43:29,031 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-14 09:43:29,031 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-14 09:43:29,031 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-14 09:59:33,445 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-14 09:59:33,461 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-14 09:59:33,476 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-14 09:59:33,476 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-14 09:59:33,476 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-14 10:14:55,298 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-14 10:14:55,313 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-14 10:14:55,313 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-14 10:14:55,329 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-14 10:14:55,329 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-14 10:18:36,941 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-14 10:18:36,941 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-14 10:18:36,941 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-14 10:18:36,941 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-14 10:18:36,941 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-14 10:19:11,062 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-14 10:19:11,062 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-14 10:19:11,062 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-14 10:19:11,062 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-14 10:19:11,062 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-14 10:21:41,755 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-14 10:21:41,755 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-14 10:21:41,755 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-14 10:21:41,755 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-14 10:21:41,755 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-14 10:26:57,065 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-14 10:26:57,159 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-14 10:26:57,190 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-14 10:26:57,237 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-14 10:26:57,237 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-14 10:33:28,593 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-14 10:33:28,624 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-14 10:33:28,624 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-14 10:33:28,639 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-14 10:33:28,639 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-17 07:56:57,947 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-02-17 07:57:01,895 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2020-02-17 08:05:34,726 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-17 08:05:34,925 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2020-02-17 08:05:34,986 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-17 08:05:35,000 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-17 08:05:35,000 [Worker-9: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-17 09:07:57,584 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-17 09:07:58,337 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-17 09:07:58,337 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-17 09:07:58,400 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-17 09:07:58,400 [Worker-48: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-17 09:21:13,517 [Worker-80: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fiscalia.springboot.backend.apirest:spring-boot-backend-apirest:0.0.1-SNAPSHOT @ C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\pom.xml.
+2020-02-17 09:21:19,588 [Worker-80: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-17 09:21:19,605 [Worker-80: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-17 09:21:19,605 [Worker-80: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-17 09:21:19,607 [Worker-80: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-17 09:21:19,607 [Worker-80: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-17 09:23:02,037 [Worker-68: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-17 09:23:02,038 [Worker-68: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-17 09:23:02,038 [Worker-68: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-17 09:23:02,039 [Worker-68: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-17 09:23:02,040 [Worker-68: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-17 09:23:07,044 [Worker-82: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fiscalia.springboot.backend.apirest:spring-boot-backend-apirest:0.0.1-SNAPSHOT @ C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\pom.xml.
+2020-02-17 09:23:13,544 [Worker-82: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-17 09:23:13,546 [Worker-82: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-17 09:23:13,547 [Worker-82: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-17 09:23:13,549 [Worker-82: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-17 09:23:13,549 [Worker-82: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-18 08:26:42,621 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-02-18 08:26:48,000 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2020-02-18 08:52:34,561 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-18 08:52:34,699 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-18 08:52:34,732 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-18 08:52:34,736 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-18 08:52:34,736 [Worker-1: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-18 09:43:06,699 [Worker-4: Building workspace] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Could not read pom.xml
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:559) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:568) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:537) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:493) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:349) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:296) ~[na:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:155) ~[na:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod$1.call(MavenBuilder.java:90) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[na:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:87) ~[na:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:201) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833) ~[na:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) ~[org.eclipse.equinox.common_3.10.200.v20181021-1645.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316) ~[na:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) ~[org.eclipse.equinox.common_3.10.200.v20181021-1645.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392) ~[na:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154) ~[na:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.200.v20180912-1356.jar:na]
+Caused by: org.apache.maven.model.io.ModelParseException: in comment after two dashes (--) next character must be > not - (position: END_TAG seen ...</dependency>\r\n\t\t\r\n\t\t\r\n\t\t<!-- ---... @37:11) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:114) ~[na:na]
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:82) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:557) ~[na:na]
+	... 24 common frames omitted
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: in comment after two dashes (--) next character must be > not - (position: END_TAG seen ...</dependency>\r\n\t\t\r\n\t\t\r\n\t\t<!-- ---... @37:11) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.parseComment(MXParser.java:2899) ~[na:na]
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextImpl(MXParser.java:1418) ~[na:na]
+	at org.codehaus.plexus.util.xml.pull.MXParser.next(MXParser.java:1317) ~[na:na]
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1300) ~[na:na]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2231) ~[na:na]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:3852) ~[na:na]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:595) ~[na:na]
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:109) ~[na:na]
+	... 26 common frames omitted
+2020-02-18 09:43:10,396 [Worker-13: Building workspace] ERROR o.e.m.c.i.p.r.ProjectRegistryManager - Could not read pom.xml
+org.eclipse.core.runtime.CoreException: Could not read pom.xml
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:559) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:568) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refreshPhase2(ProjectRegistryManager.java:537) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:493) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:349) ~[na:na]
+	at org.eclipse.m2e.core.internal.project.registry.ProjectRegistryManager.refresh(ProjectRegistryManager.java:296) ~[na:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.getProjectFacade(MavenBuilder.java:155) ~[na:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod$1.call(MavenBuilder.java:90) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[na:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder$BuildMethod.execute(MavenBuilder.java:87) ~[na:na]
+	at org.eclipse.m2e.core.internal.builder.MavenBuilder.build(MavenBuilder.java:201) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:833) ~[na:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) ~[org.eclipse.equinox.common_3.10.200.v20181021-1645.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:220) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:316) ~[na:na]
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45) ~[org.eclipse.equinox.common_3.10.200.v20181021-1645.jar:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:319) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:371) ~[na:na]
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:392) ~[na:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:154) ~[na:na]
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:244) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.200.v20180912-1356.jar:na]
+Caused by: org.apache.maven.model.io.ModelParseException: in comment after two dashes (--) next character must be > not - (position: END_TAG seen ...</dependency>\r\n\t\t\r\n\t\t\r\n\t\t<!-- ---... @37:11) 
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:114) ~[na:na]
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:82) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.readModel(MavenImpl.java:557) ~[na:na]
+	... 24 common frames omitted
+Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: in comment after two dashes (--) next character must be > not - (position: END_TAG seen ...</dependency>\r\n\t\t\r\n\t\t\r\n\t\t<!-- ---... @37:11) 
+	at org.codehaus.plexus.util.xml.pull.MXParser.parseComment(MXParser.java:2899) ~[na:na]
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextImpl(MXParser.java:1418) ~[na:na]
+	at org.codehaus.plexus.util.xml.pull.MXParser.next(MXParser.java:1317) ~[na:na]
+	at org.codehaus.plexus.util.xml.pull.MXParser.nextTag(MXParser.java:1300) ~[na:na]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.parseModel(MavenXpp3Reader.java:2231) ~[na:na]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:3852) ~[na:na]
+	at org.apache.maven.model.io.xpp3.MavenXpp3Reader.read(MavenXpp3Reader.java:595) ~[na:na]
+	at org.apache.maven.model.io.DefaultModelReader.read(DefaultModelReader.java:109) ~[na:na]
+	... 26 common frames omitted
+2020-02-18 09:43:26,295 [Worker-17: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fiscalia.springboot.backend.apirest:spring-boot-backend-apirest:0.0.1-SNAPSHOT @ C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\pom.xml.
+2020-02-18 09:45:03,949 [Worker-15: reload maven project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/oracle/ojdbc8/12.2.0.1/ojdbc8-12.2.0.1.pom
+2020-02-18 09:45:07,119 [Worker-17: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/oracle/ojdbc8/12.2.0.1/ojdbc8-12.2.0.1.pom
+2020-02-18 09:45:10,989 [Worker-2: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fiscalia.springboot.backend.apirest:spring-boot-backend-apirest:0.0.1-SNAPSHOT @ C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\pom.xml.
+2020-02-18 09:45:17,047 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-18 09:45:17,047 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-18 09:45:17,087 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-18 09:45:17,182 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-18 09:45:17,189 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-18 09:45:24,658 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-18 09:45:24,673 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-18 09:45:24,694 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-18 09:45:24,721 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-18 09:45:24,721 [Worker-2: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-18 09:46:51,806 [Worker-13: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/oracle/ojdbc8/12.2.0.1/ojdbc8-12.2.0.1-sources.jar
+2020-02-18 09:46:51,816 [Worker-13: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for com.oracle:ojdbc8:12.2.0.1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.oracle:ojdbc8:jar:sources:12.2.0.1
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:254) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.200.v20180912-1356.jar:na]
+2020-02-18 09:46:58,548 [Worker-20: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fiscalia.springboot.backend.apirest:spring-boot-backend-apirest:0.0.1-SNAPSHOT @ C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\pom.xml.
+2020-02-18 09:47:01,460 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-18 09:47:01,462 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-18 09:47:01,462 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-18 09:47:01,464 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-18 09:47:01,464 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-18 09:48:43,361 [Worker-19: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/oracle/ojdbc8/12.2.0.1/ojdbc8-12.2.0.1-javadoc.jar
+2020-02-18 09:48:43,378 [Worker-19: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for com.oracle:ojdbc8:12.2.0.1
+org.eclipse.core.runtime.CoreException: Could not resolve artifact com.oracle:ojdbc8:jar:javadoc:12.2.0.1
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.lambda$4(MavenImpl.java:763) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:731) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:708) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:265) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) ~[na:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1336) ~[na:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135) ~[na:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63) ~[org.eclipse.core.jobs_3.10.200.v20180912-1356.jar:na]
+2020-02-18 09:49:02,516 [Worker-20: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fiscalia.springboot.backend.apirest:spring-boot-backend-apirest:0.0.1-SNAPSHOT @ C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\pom.xml.
+2020-02-18 09:49:05,347 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-18 09:49:05,347 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-18 09:49:05,347 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-18 09:49:05,347 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-18 09:49:05,347 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-18 09:49:10,219 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-18 09:49:10,222 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-18 09:49:10,257 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-18 09:49:10,306 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-18 09:49:10,306 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-19 09:25:11,403 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-02-19 09:25:14,194 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2020-02-19 09:29:01,286 [Worker-6: Launching Executing install in C__Users_20364787929_Desktop_FiscaliaBack_fiscalia-back_Spring_spring-boot-backend-apirest] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest
+2020-02-19 09:29:01,325 [Worker-6: Launching Executing install in C__Users_20364787929_Desktop_FiscaliaBack_fiscalia-back_Spring_spring-boot-backend-apirest] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2020-02-19 09:33:57,057 [Worker-13: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/3.2.3/maven-war-plugin-3.2.3.jar
+2020-02-19 09:33:59,348 [Worker-13: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.fiscalia.springboot.backend.apirest:spring-boot-backend-apirest:0.0.1-SNAPSHOT @ C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\pom.xml.
+2020-02-19 09:35:42,037 [Worker-13: Building workspace] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-war-plugin/3.2.3/maven-war-plugin-3.2.3.pom
+2020-02-19 09:38:34,918 [Worker-21: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fiscalia.springboot.backend.apirest:spring-boot-backend-apirest:0.0.1-SNAPSHOT @ C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\pom.xml.
+2020-02-19 09:38:39,686 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-19 09:38:39,707 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-19 09:38:39,734 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-19 09:38:39,737 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-19 09:38:39,737 [Worker-21: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-19 10:03:52,833 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-19 10:03:52,915 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-19 10:03:52,933 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-19 10:03:52,935 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-19 10:03:52,935 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-19 10:04:53,673 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-19 10:04:53,688 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-19 10:04:53,689 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-19 10:04:53,691 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-19 10:04:53,691 [Worker-28: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-19 10:06:46,163 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-19 10:06:46,164 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-19 10:06:46,164 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-19 10:06:46,210 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-19 10:06:46,210 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-19 11:39:00,175 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-02-19 11:39:08,014 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2020-02-19 11:42:24,825 [Worker-7: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-02-19 11:42:30,371 [Worker-7: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fiscalia.springboot.backend.apirest:spring-boot-backend-apirest:0.0.1-SNAPSHOT @ C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\pom.xml.
+2020-02-19 11:42:35,375 [Worker-7: Updating Maven Project] WARN  o.e.m.j.i.AbstractJavaProjectConfigurator - Could not determine source level, using default 1.5
+2020-02-19 11:42:35,377 [Worker-7: Updating Maven Project] WARN  o.e.m.j.i.AbstractJavaProjectConfigurator - Could not determine target level, using default 1.5
+2020-02-19 11:42:35,901 [Worker-7: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-backend-apirest/src/main/java
+2020-02-19 11:42:35,902 [Worker-7: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-backend-apirest/src/main/resources
+2020-02-19 11:42:35,902 [Worker-7: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-backend-apirest/src/main/resources
+2020-02-19 11:42:35,903 [Worker-7: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-backend-apirest/src/test/java
+2020-02-19 11:42:37,855 [Worker-7: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 13 sec
+2020-02-19 11:42:42,537 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-19 11:42:42,540 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-19 11:42:42,574 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-19 11:42:42,641 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-19 11:42:42,641 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-19 11:43:16,154 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-19 11:43:16,158 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-19 11:43:16,165 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-19 11:43:16,184 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-19 11:43:16,184 [Worker-10: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-20 07:59:08,890 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-02-20 07:59:12,867 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2020-02-20 08:00:07,569 [Worker-7: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fiscalia.springboot.backend.apirest:spring-boot-backend-apirest:0.0.1-SNAPSHOT @ C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\pom.xml.
+2020-02-20 08:00:13,476 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-20 08:00:13,518 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-20 08:00:13,540 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-20 08:00:13,577 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-20 08:00:13,577 [Worker-7: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-20 08:04:24,595 [Worker-13: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-02-20 08:04:27,785 [Worker-13: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fiscalia.springboot.backend.apirest:spring-boot-backend-apirest:0.0.1-SNAPSHOT @ C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\pom.xml.
+2020-02-20 08:04:32,179 [Worker-13: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-backend-apirest/src/main/java
+2020-02-20 08:04:32,180 [Worker-13: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-backend-apirest/src/main/resources
+2020-02-20 08:04:32,180 [Worker-13: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-backend-apirest/src/main/resources
+2020-02-20 08:04:32,180 [Worker-13: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-backend-apirest/src/test/java
+2020-02-20 08:04:34,794 [Worker-13: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 10 sec
+2020-02-20 08:04:38,308 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-20 08:04:38,309 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-20 08:04:38,322 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-20 08:04:38,369 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-20 08:04:38,369 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-20 08:05:02,771 [Worker-16: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-02-20 08:05:04,267 [Worker-16: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fiscalia.springboot.backend.apirest:spring-boot-backend-apirest:0.0.1-SNAPSHOT @ C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\pom.xml.
+2020-02-20 08:05:07,632 [Worker-16: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-backend-apirest/src/main/java
+2020-02-20 08:05:07,632 [Worker-16: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-backend-apirest/src/main/resources
+2020-02-20 08:05:07,632 [Worker-16: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-backend-apirest/src/main/resources
+2020-02-20 08:05:07,633 [Worker-16: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-backend-apirest/src/test/java
+2020-02-20 08:05:09,552 [Worker-16: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 6 sec
+2020-02-20 08:05:12,112 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-20 08:05:12,113 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-20 08:05:12,126 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-20 08:05:12,141 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-20 08:05:12,141 [Worker-17: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-20 08:07:45,935 [Worker-14: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fiscalia.springboot.backend.apirest:spring-boot-backend-apirest:0.0.1-SNAPSHOT @ C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\pom.xml.
+2020-02-20 08:07:51,462 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-20 08:07:51,481 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-20 08:07:51,482 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-20 08:07:51,484 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-20 08:07:51,484 [Worker-14: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-20 08:08:05,884 [Worker-13: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fiscalia.springboot.backend.apirest:spring-boot-backend-apirest:0.0.1-SNAPSHOT @ C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\pom.xml.
+2020-02-20 08:08:09,612 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-20 08:08:09,614 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-20 08:08:09,614 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-20 08:08:09,617 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-20 08:08:09,617 [Worker-13: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-20 09:20:33,790 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-02-20 09:20:35,688 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2020-02-20 09:32:10,901 [Worker-8: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.fiscalia.springboot.backend.apirest:spring-boot-backend-apirest:0.0.1-SNAPSHOT @ C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\pom.xml.
+2020-02-20 09:46:52,389 [Worker-12: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fiscalia.springboot.backend.apirest:spring-boot-backend-apirest:0.0.1-SNAPSHOT @ C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\pom.xml.
+2020-02-20 09:46:58,673 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-20 09:46:58,699 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-20 09:46:58,735 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-20 09:46:58,744 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-20 09:46:58,744 [Worker-12: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-20 10:01:45,936 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-20 10:01:45,983 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-20 10:01:45,983 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-20 10:01:46,030 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-20 10:01:46,030 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-20 10:04:21,332 [Worker-20: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fiscalia.springboot.backend.apirest:spring-boot-backend-apirest:0.0.1-SNAPSHOT @ C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\pom.xml.
+2020-02-20 10:04:26,237 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-20 10:04:26,237 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-20 10:04:26,237 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-20 10:04:26,253 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-20 10:04:26,253 [Worker-20: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-20 10:21:26,907 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-20 10:21:26,907 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-20 10:21:26,907 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-20 10:21:26,954 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-20 10:21:26,954 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-20 10:23:11,164 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-20 10:23:11,164 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-20 10:23:11,164 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-20 10:23:11,180 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-20 10:23:11,180 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-20 10:29:25,256 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-20 10:29:25,256 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-20 10:29:25,256 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-20 10:29:25,271 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-20 10:29:25,271 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-20 10:34:28,512 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-20 10:34:28,542 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-20 10:34:28,542 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-20 10:34:28,596 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-20 10:34:28,596 [Worker-23: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-20 10:36:29,710 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-20 10:36:29,710 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-20 10:36:29,710 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-20 10:36:29,719 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-20 10:36:29,719 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-21 09:24:22,870 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-02-21 09:24:26,044 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2020-02-21 09:44:18,567 [Worker-18: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-02-21 09:44:20,330 [Worker-18: Updating Maven Project] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-02-21 09:44:34,250 [Worker-18: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fiscalia.springboot.backend.apirest:spring-boot-backend-apirest:0.0.1-SNAPSHOT @ C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\pom.xml.
+2020-02-21 09:44:44,657 [Worker-18: Updating Maven Project] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-02-21 09:44:45,312 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-backend-apirest/src/main/java
+2020-02-21 09:44:45,313 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-backend-apirest/src/main/resources
+2020-02-21 09:44:45,313 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-backend-apirest/src/main/resources
+2020-02-21 09:44:45,314 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-backend-apirest/src/test/java
+2020-02-21 09:44:50,189 [Worker-18: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 31 sec
+2020-02-21 09:44:54,771 [Worker-22: Building workspace] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-02-21 09:44:54,819 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-21 09:44:54,848 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-21 09:44:54,872 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-21 09:44:54,991 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-21 09:44:54,995 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-21 09:49:50,198 [Worker-19: Launching Executing install in C__Users_20364787929_Desktop_FiscaliaBack_fiscalia-back_Spring_spring-boot-backend-apirest] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest
+2020-02-21 09:49:50,199 [Worker-19: Launching Executing install in C__Users_20364787929_Desktop_FiscaliaBack_fiscalia-back_Spring_spring-boot-backend-apirest] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2020-02-21 09:59:20,005 [Worker-18: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-02-21 09:59:20,717 [Worker-18: Updating Maven Project] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-02-21 09:59:23,918 [Worker-18: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fiscalia.springboot.backend.apirest:spring-boot-backend-apirest:0.0.1-SNAPSHOT @ C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\pom.xml.
+2020-02-21 09:59:34,531 [Worker-18: Updating Maven Project] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-02-21 09:59:35,264 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-backend-apirest/src/main/java
+2020-02-21 09:59:35,265 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-backend-apirest/src/main/resources
+2020-02-21 09:59:35,265 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-backend-apirest/src/main/resources
+2020-02-21 09:59:35,266 [Worker-18: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-backend-apirest/src/test/java
+2020-02-21 09:59:37,112 [Worker-18: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 17 sec
+2020-02-21 09:59:39,996 [Worker-18: Building workspace] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-02-21 09:59:40,030 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-21 09:59:40,031 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-21 09:59:40,059 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-21 09:59:40,089 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-21 09:59:40,089 [Worker-18: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-21 10:00:01,769 [Worker-17: Launching spring-boot-backend-apirest - SpringBootBackendApirestApplication] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-02-21 10:00:03,219 [Worker-17: Launching spring-boot-backend-apirest - SpringBootBackendApirestApplication] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fiscalia.springboot.backend.apirest:spring-boot-backend-apirest:0.0.1-SNAPSHOT @ C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\pom.xml.
+2020-02-21 10:00:06,329 [Worker-17: Launching spring-boot-backend-apirest - SpringBootBackendApirestApplication] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-02-21 10:00:06,572 [Worker-17: Launching spring-boot-backend-apirest - SpringBootBackendApirestApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-21 10:00:06,577 [Worker-17: Launching spring-boot-backend-apirest - SpringBootBackendApirestApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-21 10:00:06,589 [Worker-17: Launching spring-boot-backend-apirest - SpringBootBackendApirestApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-21 10:00:06,591 [Worker-17: Launching spring-boot-backend-apirest - SpringBootBackendApirestApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-21 10:00:06,594 [Worker-17: Launching spring-boot-backend-apirest - SpringBootBackendApirestApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-21 10:00:09,541 [Worker-25: Building workspace] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-02-21 10:00:09,549 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-21 10:00:09,552 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-21 10:00:09,570 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-21 10:00:09,587 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-21 10:00:09,587 [Worker-25: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-21 10:08:38,244 [Worker-18: Building workspace] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-02-21 10:08:46,398 [Worker-18: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.fiscalia.springboot.backend.apirest:spring-boot-backend-apirest:0.0.1-SNAPSHOT @ C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\pom.xml.
+2020-02-21 10:09:56,990 [Worker-18: Launching Executing install in C__Users_20364787929_Desktop_FiscaliaBack_fiscalia-back_Spring_spring-boot-backend-apirest] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest
+2020-02-21 10:09:56,990 [Worker-18: Launching Executing install in C__Users_20364787929_Desktop_FiscaliaBack_fiscalia-back_Spring_spring-boot-backend-apirest] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2020-02-21 10:34:13,433 [Worker-20: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-02-21 10:34:16,934 [Worker-20: Updating Maven Project] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-02-21 10:34:27,549 [Worker-20: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.fiscalia.springboot.backend.apirest:spring-boot-backend-apirest:0.0.1-SNAPSHOT @ C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\pom.xml.
+2020-02-21 10:34:35,890 [Worker-20: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 22 sec
+2020-02-21 10:38:18,541 [Worker-29: Launching Executing install in C__Users_20364787929_Desktop_FiscaliaBack_fiscalia-back_Spring_spring-boot-backend-apirest] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest
+2020-02-21 10:38:18,588 [Worker-29: Launching Executing install in C__Users_20364787929_Desktop_FiscaliaBack_fiscalia-back_Spring_spring-boot-backend-apirest] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2020-02-21 10:43:14,802 [Worker-24: Launching Executing install in C__Users_20364787929_Desktop_FiscaliaBack_fiscalia-back_Spring_spring-boot-backend-apirest] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest
+2020-02-21 10:43:14,826 [Worker-24: Launching Executing install in C__Users_20364787929_Desktop_FiscaliaBack_fiscalia-back_Spring_spring-boot-backend-apirest] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2020-02-21 10:46:36,168 [Worker-25: Launching Executing install in C__Users_20364787929_Desktop_FiscaliaBack_fiscalia-back_Spring_spring-boot-backend-apirest] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest
+2020-02-21 10:46:36,169 [Worker-25: Launching Executing install in C__Users_20364787929_Desktop_FiscaliaBack_fiscalia-back_Spring_spring-boot-backend-apirest] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2020-02-21 10:58:28,033 [Worker-32: Launching Executing install in C__Users_20364787929_Desktop_FiscaliaBack_fiscalia-back_Spring_spring-boot-backend-apirest] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest
+2020-02-21 10:58:28,053 [Worker-32: Launching Executing install in C__Users_20364787929_Desktop_FiscaliaBack_fiscalia-back_Spring_spring-boot-backend-apirest] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2020-02-21 11:00:38,798 [Worker-34: Building workspace] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-02-21 11:00:47,769 [Worker-34: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fiscalia.springboot.backend.apirest:spring-boot-backend-apirest:0.0.1-SNAPSHOT @ C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\pom.xml.
+2020-02-21 11:00:57,723 [Worker-34: Building workspace] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-02-21 11:00:58,200 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-21 11:00:58,205 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-21 11:00:58,229 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-21 11:00:58,232 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-21 11:00:58,232 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-21 11:01:48,091 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-02-21 11:01:48,427 [Worker-35: Updating Maven Project] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-02-21 11:01:49,769 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fiscalia.springboot.backend.apirest:spring-boot-backend-apirest:0.0.1-SNAPSHOT @ C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\pom.xml.
+2020-02-21 11:01:52,941 [Worker-35: Updating Maven Project] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-02-21 11:01:53,187 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-backend-apirest/src/main/java
+2020-02-21 11:01:53,187 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-backend-apirest/src/main/resources
+2020-02-21 11:01:53,187 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-backend-apirest/src/main/resources
+2020-02-21 11:01:53,188 [Worker-35: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-backend-apirest/src/test/java
+2020-02-21 11:01:55,227 [Worker-35: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 7 sec
+2020-02-21 11:01:58,478 [Worker-34: Building workspace] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-02-21 11:01:58,523 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-21 11:01:58,524 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-21 11:01:58,536 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-21 11:01:58,643 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-21 11:01:58,643 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-21 11:02:34,741 [Worker-34: Building workspace] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-02-21 11:02:36,084 [Worker-34: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fiscalia.springboot.backend.apirest:spring-boot-backend-apirest:0.0.1-SNAPSHOT @ C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\pom.xml.
+2020-02-21 11:02:39,335 [Worker-34: Building workspace] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-02-21 11:02:39,606 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-21 11:02:39,609 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-21 11:02:39,621 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-21 11:02:39,623 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-21 11:02:39,623 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-21 11:04:10,039 [Worker-24: Building workspace] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-02-21 11:04:10,047 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-21 11:04:10,050 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-21 11:04:10,070 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-21 11:04:10,073 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-21 11:04:10,073 [Worker-24: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-21 11:05:34,172 [Worker-34: Building workspace] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-02-21 11:05:34,176 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-21 11:05:34,177 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-21 11:05:34,183 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-21 11:05:34,185 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-21 11:05:34,185 [Worker-34: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-21 11:06:43,441 [Worker-37: Building workspace] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-02-21 11:06:43,446 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-21 11:06:43,448 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-21 11:06:43,454 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-21 11:06:43,456 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-21 11:06:43,456 [Worker-37: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-21 11:07:34,874 [Worker-32: Building workspace] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-02-21 11:07:34,878 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-21 11:07:34,881 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-21 11:07:34,886 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-21 11:07:34,888 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-21 11:07:34,888 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-21 11:07:47,661 [Worker-32: Building workspace] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-02-21 11:07:47,664 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-21 11:07:47,666 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-21 11:07:47,671 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-21 11:07:47,673 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-21 11:07:47,673 [Worker-32: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-21 11:08:20,504 [Worker-29: Building workspace] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-02-21 11:08:20,508 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-21 11:08:20,511 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-21 11:08:20,516 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-21 11:08:20,518 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-21 11:08:20,518 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-21 11:26:42,840 [Worker-36: Building workspace] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-02-21 11:27:11,459 [Worker-36: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fiscalia.springboot.backend.apirest:spring-boot-backend-apirest:0.0.1-SNAPSHOT @ C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\pom.xml.
+2020-02-21 11:27:23,708 [Worker-36: Building workspace] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-02-21 11:27:24,667 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-21 11:27:24,677 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-21 11:27:24,694 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-21 11:27:24,694 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-21 11:27:24,694 [Worker-36: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-21 12:32:19,459 [Worker-45: Building workspace] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-02-21 12:32:25,260 [Worker-45: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.fiscalia.springboot.backend.apirest:spring-boot-backend-apirest:0.0.1-SNAPSHOT @ C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\pom.xml.
+2020-02-21 12:33:00,988 [Worker-45: Launching Executing install in C__Users_20364787929_Desktop_FiscaliaBack_fiscalia-back_Spring_spring-boot-backend-apirest] INFO  o.e.m.i.launch.MavenLaunchDelegate - C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest
+2020-02-21 12:33:00,988 [Worker-45: Launching Executing install in C__Users_20364787929_Desktop_FiscaliaBack_fiscalia-back_Spring_spring-boot-backend-apirest] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn -B install
+2020-02-21 12:35:27,468 [Worker-40: Building workspace] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-02-21 12:35:29,104 [Worker-40: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fiscalia.springboot.backend.apirest:spring-boot-backend-apirest:0.0.1-SNAPSHOT @ C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\pom.xml.
+2020-02-21 12:35:33,233 [Worker-40: Building workspace] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-02-21 12:35:33,611 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-21 12:35:33,642 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-21 12:35:33,673 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-21 12:35:33,689 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-21 12:35:33,689 [Worker-40: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-21 12:50:33,290 [Worker-45: Building workspace] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-02-21 12:50:37,874 [Worker-45: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fiscalia.springboot.backend.apirest:spring-boot-backend-apirest:0.0.1-SNAPSHOT @ C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\pom.xml.
+2020-02-21 12:50:43,777 [Worker-45: Building workspace] ERROR o.e.m.c.i.URLConnectionCaches - Unexpected URLConnection defaultUseCaches enabled
+2020-02-21 12:50:44,238 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-21 12:50:44,254 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-21 12:50:44,254 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-21 12:50:44,254 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-21 12:50:44,254 [Worker-45: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-26 08:45:11,844 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-02-26 08:45:24,455 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2020-02-26 10:45:21,792 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-26 10:45:21,917 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-26 10:45:21,963 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-02-26 10:45:22,073 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-26 10:45:22,073 [Worker-22: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-26 11:42:33,394 [Worker-6: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fiscalia.springboot.backend.apirest:spring-boot-backend-apirest:0.0.1-SNAPSHOT @ C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\pom.xml.
+2020-02-26 11:42:40,050 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-26 11:42:40,066 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-26 11:42:40,066 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-26 11:42:40,066 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-26 11:42:40,066 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-26 11:44:05,992 [Worker-6: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fiscalia.springboot.backend.apirest:spring-boot-backend-apirest:0.0.1-SNAPSHOT @ C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\pom.xml.
+2020-02-26 11:44:09,099 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-26 11:44:09,099 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-26 11:44:09,099 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-02-26 11:44:09,099 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-02-26 11:44:09,099 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-02-27 08:52:21,370 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-02-27 08:52:23,635 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2020-03-02 08:02:20,426 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-03-02 08:02:24,209 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2020-03-02 10:16:48,704 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-02 10:16:48,827 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-02 10:16:48,851 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-02 10:16:48,879 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-02 10:16:48,879 [Worker-29: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\20364787929\Desktop\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-03-03 08:28:57,827 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-03-03 08:29:00,069 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2020-03-03 10:14:37,996 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-03-03 10:14:44,427 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
+2020-03-03 10:15:47,469 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fiscalia.springboot.backend.apirest:spring-boot-backend-apirest:0.0.1-SNAPSHOT @ D:\DESARROLLO\Codigo\BackEnd\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\pom.xml.
+2020-03-03 10:15:50,000 [Worker-0: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fiscalia.springboot.backend.apirest:spring-boot-backend-apirest:0.0.1-SNAPSHOT @ D:\DESARROLLO\Codigo\BackEnd\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\pom.xml.
+2020-03-03 10:15:59,506 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-03 10:15:59,531 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-03 10:15:59,545 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-03 10:15:59,559 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-03 10:15:59,559 [Worker-0: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DESARROLLO\Codigo\BackEnd\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-03-03 10:16:02,685 [Worker-7: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fiscalia.springboot.backend.apirest:spring-boot-backend-apirest:0.0.1-SNAPSHOT @ D:\DESARROLLO\Codigo\BackEnd\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\pom.xml.
+2020-03-03 10:16:09,460 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-03 10:16:09,462 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-03 10:16:09,463 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-03 10:16:09,465 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-03 10:16:09,465 [Worker-6: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DESARROLLO\Codigo\BackEnd\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-03-03 10:16:28,902 [Worker-8: Building workspace] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fiscalia.springboot.backend.apirest:spring-boot-backend-apirest:0.0.1-SNAPSHOT @ D:\DESARROLLO\Codigo\BackEnd\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\pom.xml.
+2020-03-03 10:16:32,391 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-03 10:16:32,393 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-03 10:16:32,393 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-03-03 10:16:32,395 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-03 10:16:32,395 [Worker-8: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DESARROLLO\Codigo\BackEnd\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-03-03 10:16:50,117 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2020-03-03 10:16:52,717 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.fiscalia.springboot.backend.apirest:spring-boot-backend-apirest:0.0.1-SNAPSHOT @ D:\DESARROLLO\Codigo\BackEnd\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\pom.xml.
+2020-03-03 10:16:56,072 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-backend-apirest/src/main/java
+2020-03-03 10:16:56,072 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-backend-apirest/src/main/resources
+2020-03-03 10:16:56,073 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /spring-boot-backend-apirest/src/main/resources
+2020-03-03 10:16:56,073 [Worker-8: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-boot-backend-apirest/src/test/java
+2020-03-03 10:16:57,713 [Worker-8: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 7 sec
+2020-03-03 10:17:00,606 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-03 10:17:00,606 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-03 10:17:00,625 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-03-03 10:17:00,639 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-03-03 10:17:00,639 [Worker-5: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory D:\DESARROLLO\Codigo\BackEnd\FiscaliaBack\fiscalia-back\Spring\spring-boot-backend-apirest\src\test\resources
+2020-03-04 09:30:51,626 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2020-03-04 09:30:56,169 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Updating Gradle version information cache failed. Using outdated cache.
